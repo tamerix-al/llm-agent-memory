@@ -1,0 +1,83 @@
+ROBERTA CLASSIFIER REPORT
+=========================
+
+Input file: data\final\memory_operations_delete_refreshed_style_controlled.jsonl
+Model: distilroberta-base
+Type: fine-tuned neural sequence classifier
+Split: GroupShuffleSplit by fact_id
+Random seed: 42
+Test size: 0.2
+
+Training settings:
+- max_length: 192
+- num_train_epochs: 4
+- learning_rate: 2e-05
+- weight_decay: 0.01
+- train_batch_size: 8
+- eval_batch_size: 16
+
+Total examples: 2610
+Train examples: 2069
+Test examples: 541
+
+Overall metrics:
+- accuracy: 0.9797
+- macro_f1: 0.9798
+- weighted_f1: 0.9797
+
+Train distribution:
+label_name
+ADD               342
+CONFLICT          342
+DELETE            346
+DELETE_ADD        345
+IGNORE-NONFACT    346
+IGNORE-OTHERS     348
+
+Test distribution:
+label_name
+ADD               93
+CONFLICT          93
+DELETE            89
+DELETE_ADD        90
+IGNORE-NONFACT    89
+IGNORE-OTHERS     87
+
+Trainer eval metrics:
+{
+  "eval_loss": 0.08728431910276413,
+  "eval_accuracy": 0.9796672828096118,
+  "eval_macro_f1": 0.9798410567499704,
+  "eval_weighted_f1": 0.9796810891333602,
+  "eval_runtime": 7.0934,
+  "eval_samples_per_second": 76.268,
+  "eval_steps_per_second": 4.793,
+  "epoch": 4.0
+}
+
+Classification report:
+                precision    recall  f1-score   support
+
+           ADD     0.9780    0.9570    0.9674        93
+        DELETE     0.9885    0.9663    0.9773        89
+    DELETE_ADD     1.0000    0.9889    0.9944        90
+      CONFLICT     0.9485    0.9892    0.9684        93
+IGNORE-NONFACT     0.9780    1.0000    0.9889        89
+ IGNORE-OTHERS     0.9884    0.9770    0.9827        87
+
+      accuracy                         0.9797       541
+     macro avg     0.9802    0.9797    0.9798       541
+  weighted avg     0.9800    0.9797    0.9797       541
+
+
+Confusion matrix:
+                     pred_ADD  pred_DELETE  pred_DELETE_ADD  pred_CONFLICT  pred_IGNORE-NONFACT  pred_IGNORE-OTHERS
+true_ADD                   89            0                0              3                    0                   1
+true_DELETE                 0           86                0              2                    1                   0
+true_DELETE_ADD             0            1               89              0                    0                   0
+true_CONFLICT               0            0                0             92                    1                   0
+true_IGNORE-NONFACT         0            0                0              0                   89                   0
+true_IGNORE-OTHERS          2            0                0              0                    0                  85
+
+Saved predictions: data\roberta_classifier\roberta_test_predictions.csv
+Saved confusion matrix: data\roberta_classifier\roberta_confusion_matrix.csv

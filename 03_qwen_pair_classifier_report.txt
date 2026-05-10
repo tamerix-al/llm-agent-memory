@@ -1,0 +1,68 @@
+QWEN PROMPTED CLASSIFIER REPORT
+================================
+
+Input file: data\baseline_classifier\test_predictions.csv
+Model: qwen/qwen3.5-122b-a10b
+Type: prompted LLM classifier
+Test set: same test split as TF-IDF baseline
+
+Generation settings:
+- temperature: 0.0
+- top_p: 1.0
+- max_tokens: 80
+- reasoning_effort: none
+
+Total examples: 541
+Parsed predictions: 541
+Failed predictions: 0
+
+Overall metrics:
+- accuracy: 0.8983
+- macro_f1: 0.8980
+- weighted_f1: 0.8975
+
+Gold class distribution:
+target_operation
+ADD               93
+CONFLICT          93
+DELETE            89
+DELETE_ADD        90
+IGNORE-NONFACT    89
+IGNORE-OTHERS     87
+
+Predicted class distribution:
+qwen_prediction
+ADD                75
+CONFLICT           79
+DELETE             96
+DELETE_ADD        100
+IGNORE-NONFACT    102
+IGNORE-OTHERS      89
+
+Classification report:
+                precision    recall  f1-score   support
+
+           ADD     0.9867    0.7957    0.8810        93
+        DELETE     0.8438    0.9101    0.8757        89
+    DELETE_ADD     0.8500    0.9444    0.8947        90
+      CONFLICT     0.9494    0.8065    0.8721        93
+IGNORE-NONFACT     0.8627    0.9888    0.9215        89
+ IGNORE-OTHERS     0.9326    0.9540    0.9432        87
+
+      accuracy                         0.8983       541
+     macro avg     0.9042    0.8999    0.8980       541
+  weighted avg     0.9049    0.8983    0.8975       541
+
+
+Confusion matrix:
+                     pred_ADD  pred_DELETE  pred_DELETE_ADD  pred_CONFLICT  pred_IGNORE-NONFACT  pred_IGNORE-OTHERS
+true_ADD                   74            0                2              1                   10                   6
+true_DELETE                 0           81                6              1                    1                   0
+true_DELETE_ADD             0            4               85              1                    0                   0
+true_CONFLICT               0           11                7             75                    0                   0
+true_IGNORE-NONFACT         1            0                0              0                   88                   0
+true_IGNORE-OTHERS          0            0                0              1                    3                  83
+
+Saved predictions: data\qwen_classifier\qwen_classifier_predictions.csv
+Saved confusion matrix: data\qwen_classifier\qwen_confusion_matrix.csv
+Saved raw outputs: data\qwen_classifier\qwen_raw_outputs.jsonl

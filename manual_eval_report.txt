@@ -1,0 +1,45 @@
+MANUAL OUT-OF-DATASET EVALUATION REPORT
+=======================================
+
+Model: data\roberta_multifact_classifier\final_model
+Input file: data\manual_eval\my_examples.jsonl
+Total examples: 30
+
+Accuracy: 0.6667
+
+Classification report:
+                precision    recall  f1-score   support
+
+           ADD     1.0000    0.4000    0.5714         5
+        DELETE     1.0000    0.6000    0.7500         5
+    DELETE_ADD     0.6000    0.6000    0.6000         5
+      CONFLICT     0.4000    0.8000    0.5333         5
+IGNORE-NONFACT     1.0000    0.8000    0.8889         5
+ IGNORE-OTHERS     0.6667    0.8000    0.7273         5
+
+      accuracy                         0.6667        30
+     macro avg     0.7778    0.6667    0.6785        30
+  weighted avg     0.7778    0.6667    0.6785        30
+
+
+Confusion matrix:
+                     pred_ADD  pred_DELETE  pred_DELETE_ADD  pred_CONFLICT  pred_IGNORE-NONFACT  pred_IGNORE-OTHERS
+true_ADD                    2            0                1              2                    0                   0
+true_DELETE                 0            3                0              1                    0                   1
+true_DELETE_ADD             0            0                3              2                    0                   0
+true_CONFLICT               0            0                0              4                    0                   1
+true_IGNORE-NONFACT         0            0                0              1                    4                   0
+true_IGNORE-OTHERS          0            0                1              0                    0                   4
+
+Errors:
+         example_id expected_operation predicted_operation  confidence                                                       utterance
+       real_add_002                ADD            CONFLICT    0.960227                                                I am a democrat.
+       real_add_003                ADD          DELETE_ADD    0.934778 I just bought a bread maker and started baking sourdough daily.
+       real_add_005                ADD            CONFLICT    0.962090                 I also hate horror movies, they are disgusting.
+    real_delete_002             DELETE            CONFLICT    0.947999                            I voted for Trump, he is a cool guy.
+    real_delete_005             DELETE       IGNORE-OTHERS    0.927852                                     My boss fired me yesterday.
+real_delete_add_004         DELETE_ADD            CONFLICT    0.777815      Atheism is sooo boring, from today on, I am a Muslim haha.
+real_delete_add_005         DELETE_ADD            CONFLICT    0.953294                     I misspoke, I actually have a twin brother.
+  real_conflict_002           CONFLICT       IGNORE-OTHERS    0.877893                All of my brothers including me have brown eyes.
+   real_nonfact_004     IGNORE-NONFACT            CONFLICT    0.910874                                      Atheism is a new religion.
+    real_others_005      IGNORE-OTHERS          DELETE_ADD    0.946460 My friend also dropped out of college and now he's a bartender.

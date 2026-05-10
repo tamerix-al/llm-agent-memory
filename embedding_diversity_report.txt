@@ -1,0 +1,137 @@
+EMBEDDING DIVERSITY REPORT
+==========================
+
+Input file: data\final\memory_operations_delete_refreshed_style_controlled.jsonl
+Embedding model: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+Total examples: 2610
+
+Class distribution:
+operation
+ADD               435
+CONFLICT          435
+DELETE            435
+DELETE_ADD        435
+IGNORE-NONFACT    435
+IGNORE-OTHERS     435
+
+Nearest-neighbor cosine similarity:
+- mean: 0.7618
+- median: 0.7653
+- std: 0.1113
+- min: 0.4311
+- max: 0.9987
+
+High-similarity nearest neighbors:
+- examples with NN cosine >= 0.85: 607
+- examples with NN cosine >= 0.9: 309
+
+Similar pairs:
+- pairs with cosine >= 0.85: 538
+- same-operation similar pairs: 501
+- cross-operation similar pairs: 37
+
+Average nearest-neighbor similarity by operation:
+                    mean    median       max  count
+operation                                          
+ADD             0.730934  0.726176  0.994511    435
+CONFLICT        0.786143  0.789119  0.998709    435
+DELETE          0.812929  0.811532  0.986720    435
+DELETE_ADD      0.798160  0.792162  0.985543    435
+IGNORE-NONFACT  0.760551  0.757676  0.980851    435
+IGNORE-OTHERS   0.682244  0.680065  0.957907    435
+
+Examples whose nearest neighbor is from another operation:
+- count: 725
+- share: 0.2778
+
+Top 20 cross-operation nearest neighbors:
+
+Cosine: 0.9634
+1 [CONFLICT]: I wear every single shoe I own.
+2 [DELETE]: I wear every single shoe I own now.
+
+Cosine: 0.9634
+1 [DELETE]: I wear every single shoe I own now.
+2 [CONFLICT]: I wear every single shoe I own.
+
+Cosine: 0.9602
+1 [DELETE]: I found a job and stopped looking.
+2 [DELETE_ADD]: I found a position and stopped looking for work.
+
+Cosine: 0.9602
+1 [DELETE_ADD]: I found a position and stopped looking for work.
+2 [DELETE]: I found a job and stopped looking.
+
+Cosine: 0.9485
+1 [ADD]: I commute to the office every day.
+2 [CONFLICT]: I commute to an office downtown every day.
+
+Cosine: 0.9485
+1 [CONFLICT]: I commute to an office downtown every day.
+2 [ADD]: I commute to the office every day.
+
+Cosine: 0.9301
+1 [CONFLICT]: I don't wish I had worked more on my music in high school.
+2 [DELETE]: I stopped wishing I had worked more on my music when I was in high school.
+
+Cosine: 0.9301
+1 [DELETE]: I stopped wishing I had worked more on my music when I was in high school.
+2 [CONFLICT]: I don't wish I had worked more on my music in high school.
+
+Cosine: 0.9183
+1 [IGNORE-OTHERS]: My training partner says she runs five miles before work every morning.
+2 [ADD]: I try to run five miles every morning before work.
+
+Cosine: 0.9167
+1 [DELETE_ADD]: I haven't seen a Disney movie since Miracle; my last one was Inside Out.
+2 [DELETE]: I haven't seen a Disney movie since Miracle.
+
+Cosine: 0.9167
+1 [DELETE]: I haven't seen a Disney movie since Miracle.
+2 [DELETE_ADD]: I haven't seen a Disney movie since Miracle; my last one was Inside Out.
+
+Cosine: 0.9160
+1 [DELETE]: I don't mind having marshmallows in my fruit salad anymore.
+2 [DELETE_ADD]: I've stopped avoiding marshmallows in my fruit salad and now I love adding them.
+
+Cosine: 0.9160
+1 [DELETE_ADD]: I've stopped avoiding marshmallows in my fruit salad and now I love adding them.
+2 [DELETE]: I don't mind having marshmallows in my fruit salad anymore.
+
+Cosine: 0.9075
+1 [DELETE]: I used to have a resume, but I don't anymore.
+2 [DELETE_ADD]: I don't have a resume anymore since I created one for my job application.
+
+Cosine: 0.9075
+1 [DELETE_ADD]: I don't have a resume anymore since I created one for my job application.
+2 [DELETE]: I used to have a resume, but I don't anymore.
+
+Cosine: 0.9064
+1 [DELETE]: I dyed my hair, so I'm not a ginger anymore.
+2 [DELETE_ADD]: I dyed my hair black last year, so I'm not a ginger anymore.
+
+Cosine: 0.9064
+1 [DELETE_ADD]: I dyed my hair black last year, so I'm not a ginger anymore.
+2 [DELETE]: I dyed my hair, so I'm not a ginger anymore.
+
+Cosine: 0.9012
+1 [DELETE]: I no longer like movies more than sunsets.
+2 [DELETE_ADD]: I don't care about movies anymore; I've started preferring sunsets.
+
+Cosine: 0.9012
+1 [DELETE_ADD]: I don't care about movies anymore; I've started preferring sunsets.
+2 [DELETE]: I no longer like movies more than sunsets.
+
+Cosine: 0.8965
+1 [DELETE]: I stopped looking for work.
+2 [DELETE_ADD]: I found a position and stopped looking for work.
+
+PCA:
+- PC1 explained variance: 0.0935
+- PC2 explained variance: 0.0565
+- PCA plot saved to: data\diversity_embedding\embedding_pca_plot.png
+
+Saved files:
+- nearest neighbors: data\diversity_embedding\embedding_nearest_neighbors.csv
+- similar pairs: data\diversity_embedding\embedding_similar_pairs.csv
+- PCA plot: data\diversity_embedding\embedding_pca_plot.png

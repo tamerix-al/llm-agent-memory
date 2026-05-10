@@ -1,0 +1,74 @@
+QWEN MULTI-FACT CLASSIFIER REPORT
+=================================
+
+Input file: data\multifact_context\multifact_mpnet_topk_facts.jsonl
+Model: qwen/qwen3.5-122b-a10b
+Type: prompted LLM classifier
+
+Generation settings:
+- temperature: 0.0
+- top_p: 1.0
+- max_tokens: 120
+- reasoning_effort: none
+
+Total examples: 541
+Parsed predictions: 541
+Failed predictions: 0
+
+Operation metrics:
+- operation_accuracy: 0.8281
+- operation_macro_f1: 0.8274
+- operation_weighted_f1: 0.8264
+
+Target fact metrics:
+- target_accuracy_all: 1.0000
+- joint_accuracy_all: 0.8281
+- target_accuracy_required_DELETE_DELETE_ADD_CONFLICT: 1.0000
+- joint_accuracy_required_DELETE_DELETE_ADD_CONFLICT: 0.7868
+- null_target_accuracy_ADD_IGNORE: 1.0000
+
+Gold operation distribution:
+gold_operation
+ADD               93
+CONFLICT          93
+DELETE            89
+DELETE_ADD        90
+IGNORE-NONFACT    89
+IGNORE-OTHERS     87
+
+Predicted operation distribution:
+pred_operation
+ADD                67
+CONFLICT           61
+DELETE             85
+DELETE_ADD        127
+IGNORE-NONFACT    114
+IGNORE-OTHERS      87
+
+Classification report:
+                precision    recall  f1-score   support
+
+           ADD     0.9851    0.7097    0.8250        93
+        DELETE     0.8353    0.7978    0.8161        89
+    DELETE_ADD     0.6693    0.9444    0.7834        90
+      CONFLICT     0.9508    0.6237    0.7532        93
+IGNORE-NONFACT     0.7719    0.9888    0.8670        89
+ IGNORE-OTHERS     0.9195    0.9195    0.9195        87
+
+      accuracy                         0.8281       541
+     macro avg     0.8553    0.8306    0.8274       541
+  weighted avg     0.8564    0.8281    0.8264       541
+
+
+Confusion matrix:
+                     pred_ADD  pred_DELETE  pred_DELETE_ADD  pred_CONFLICT  pred_IGNORE-NONFACT  pred_IGNORE-OTHERS
+true_ADD                   66            0                1              1                   19                   6
+true_DELETE                 0           71               17              1                    0                   0
+true_DELETE_ADD             0            3               85              0                    1                   1
+true_CONFLICT               0           11               24             58                    0                   0
+true_IGNORE-NONFACT         0            0                0              1                   88                   0
+true_IGNORE-OTHERS          1            0                0              0                    6                  80
+
+Saved predictions: data\qwen_multifact_classifier\multifact_mpnet_topk_facts\qwen_multifact_predictions.csv
+Saved confusion matrix: data\qwen_multifact_classifier\multifact_mpnet_topk_facts\qwen_multifact_confusion_matrix.csv
+Saved raw outputs: data\qwen_multifact_classifier\multifact_mpnet_topk_facts\qwen_multifact_raw_outputs.jsonl

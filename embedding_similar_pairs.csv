@@ -1,0 +1,539 @@
+﻿cosine_similarity,example_id_1,operation_1,utterance_1,example_id_2,operation_2,utterance_2,same_operation
+0.9987087249755859,ex_002500,CONFLICT,I hate pineapple.,ex_002608,CONFLICT,I hate pineapples.,True
+0.9974759817123413,ex_000538,CONFLICT,I hate being outside.,ex_000634,CONFLICT,I hate being outdoors.,True
+0.9957252740859985,ex_000796,CONFLICT,I never watch movies with my kids.,ex_000862,CONFLICT,I never watch movies with my children.,True
+0.9945108294487,ex_002533,ADD,I set my own schedule and choose which projects to take on.,ex_002581,ADD,I set my own schedule and decide which projects to take on.,True
+0.992530107498169,ex_002173,ADD,I try to run five kilometers every morning before work.,ex_002761,ADD,I try to run five miles every morning before work.,True
+0.990613579750061,ex_000550,CONFLICT,I don't own any pets.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.988197386264801,ex_000682,CONFLICT,I don't have any pets.,ex_002128,CONFLICT,I don't have any dogs.,True
+0.9867203235626221,ex_000650,DELETE,I've stopped going running.,ex_002174,DELETE,I've stopped running.,True
+0.9865841865539551,ex_001532,DELETE,I'm not a female anymore.,ex_001994,DELETE,I'm not a woman anymore.,True
+0.9858278036117554,ex_001708,CONFLICT,I don't play any musical instruments.,ex_001714,CONFLICT,I don't play any instrument.,True
+0.9855425357818604,ex_000057,DELETE_ADD,I moved away from the city and now live in the countryside.,ex_001929,DELETE_ADD,I moved out of the city and now live in the countryside.,True
+0.9850600957870483,ex_000087,DELETE_ADD,I stopped running and started cycling instead.,ex_002175,DELETE_ADD,I stopped running and switched to cycling instead.,True
+0.9831076264381409,ex_000652,CONFLICT,I absolutely hate running.,ex_002176,CONFLICT,I absolutely detest running.,True
+0.9808506965637207,ex_001073,IGNORE-NONFACT,That's a common struggle for so many people.,ex_001211,IGNORE-NONFACT,That's a common struggle for a lot of people.,True
+0.9785913228988647,ex_000562,CONFLICT,I hate Starbucks.,ex_000580,CONFLICT,I hate Starbucks coffee.,True
+0.9782212972640991,ex_000629,IGNORE-NONFACT,That sounds like a fun way to spend time together.,ex_000797,IGNORE-NONFACT,That must be a fun way to spend time together.,True
+0.978015661239624,ex_000970,CONFLICT,I find country music completely unenjoyable.,ex_002806,CONFLICT,I find country music completely unappealing.,True
+0.9765966534614563,ex_002054_delete_style_refresh_0271,DELETE,I no longer am trying to lose weight.,ex_002192_delete_style_refresh_0222,DELETE,I no longer try to lose weight.,True
+0.976386308670044,ex_002149,ADD,I started incorporating strength training sessions twice a week to support my running.,ex_002197,ADD,I've started incorporating strength training twice a week to support my running.,True
+0.9757553339004517,ex_002407,ADD,I try to cook a new plant-based recipe every week.,ex_002425,ADD,I try to cook a new plant-based dish every week.,True
+0.975115180015564,ex_002689,ADD,I always add a squeeze of fresh lime to bring out the flavors.,ex_002713,ADD,I always add a squeeze of fresh lime to keep the flavors bright.,True
+0.9741499423980713,ex_000305,IGNORE-NONFACT,That's a pretty interesting family background.,ex_001289,IGNORE-NONFACT,That's a fascinating family background.,True
+0.9741065502166748,ex_001533,DELETE_ADD,I no longer identify as female and now consider myself non-binary.,ex_002283,DELETE_ADD,I no longer identify as female; I'm non-binary now.,True
+0.9739919900894165,ex_000550,CONFLICT,I don't own any pets.,ex_000682,CONFLICT,I don't have any pets.,True
+0.9726732969284058,ex_001047,DELETE_ADD,I've stopped shopping compulsively and now I focus on saving money.,ex_001065,DELETE_ADD,I stopped buying things compulsively and now I focus on saving money.,True
+0.9722336530685425,ex_001028_delete_style_refresh_0087,DELETE,I wouldn't describe myself as wanting to work from home these days.,ex_002576_delete_style_refresh_0211,DELETE,I wouldn't describe myself as working from home these days.,True
+0.9719291925430298,ex_001995,DELETE_ADD,"I used to identify as a woman, but now I'm non-binary.",ex_002259,DELETE_ADD,"I used to identify as female, but now I identify as non-binary.",True
+0.9715473055839539,ex_002158,CONFLICT,I don't own any dogs.,ex_002524,CONFLICT,I don't own any animals.,True
+0.9708261489868164,ex_000550,CONFLICT,I don't own any pets.,ex_001438,CONFLICT,I don't own any cats.,True
+0.9698755741119385,ex_000994,CONFLICT,I work full time as a software engineer.,ex_001522,CONFLICT,I am a full-time software engineer.,True
+0.9695191383361816,ex_000173,IGNORE-NONFACT,That's a great goal to have!,ex_001979,IGNORE-NONFACT,That's a great goal to aim for!,True
+0.9692413806915283,ex_000550,CONFLICT,I don't own any pets.,ex_002524,CONFLICT,I don't own any animals.,True
+0.9686387777328491,ex_000682,CONFLICT,I don't have any pets.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.9676363468170166,ex_000575,IGNORE-NONFACT,"That's a big responsibility, for sure.",ex_002657,IGNORE-NONFACT,That must be a big responsibility.,True
+0.9674926400184631,ex_001791,DELETE_ADD,I stopped playing Alistar and started enjoying strategy games instead.,ex_001917,DELETE_ADD,I stopped playing Alistar and started getting into strategy games instead.,True
+0.9666224122047424,ex_002128,CONFLICT,I don't have any dogs.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.9655828475952148,ex_001438,CONFLICT,I don't own any cats.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.9646715521812439,ex_000580,CONFLICT,I hate Starbucks coffee.,ex_000598,CONFLICT,I hate coffee.,True
+0.9634281396865845,ex_001166,DELETE,I wear every single shoe I own now.,ex_001168,CONFLICT,I wear every single shoe I own.,False
+0.9634217023849487,ex_002390_delete_style_refresh_0057,DELETE,I stopped being vegan.,ex_002486,DELETE,I stopped being vegetarian.,True
+0.9630163908004761,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.9622417688369751,ex_001325,IGNORE-NONFACT,That sounds like a cozy way to spend an evening.,ex_001409,IGNORE-NONFACT,That's such a cozy way to spend an evening.,True
+0.9606334567070007,ex_001977,DELETE_ADD,I've stopped trying to exercise more and now I focus on meditation instead.,ex_002067,DELETE_ADD,I've given up on exercising and decided to focus on meditation instead.,True
+0.9603456854820251,ex_000675,DELETE_ADD,I stopped running every day and now I swim instead.,ex_002025,DELETE_ADD,I stopped running five miles daily and now I swim instead.,True
+0.9601713418960571,ex_001016,DELETE,I found a job and stopped looking.,ex_001017,DELETE_ADD,I found a position and stopped looking for work.,False
+0.9592810869216919,ex_000561,DELETE_ADD,I stopped going to Starbucks and now I make my coffee at home.,ex_000579,DELETE_ADD,I stopped drinking Starbucks and now I brew my own coffee at home.,True
+0.9579073786735535,ex_000360,IGNORE-OTHERS,The jazz ensemble at the neighboring school just won a regional competition.,ex_001530,IGNORE-OTHERS,The jazz ensemble at the neighboring high school won the regional competition last year.,True
+0.9576473236083984,ex_001904_delete_style_refresh_0273,DELETE,I don't like to cook vegan meals anymore.,ex_001922_delete_style_refresh_0224,DELETE,I no longer cook vegan food that is healthy.,True
+0.9563031196594238,ex_001528,CONFLICT,I don't play any instruments or participate in any bands.,ex_001708,CONFLICT,I don't play any musical instruments.,True
+0.9559425115585327,ex_000010,CONFLICT,I hate working out at the gym.,ex_002068,CONFLICT,I hate working out.,True
+0.9557828307151794,ex_001187,IGNORE-NONFACT,That's a fun way to spend an afternoon.,ex_001223,IGNORE-NONFACT,"Oh, that's always a fun way to spend the afternoon!",True
+0.9551252126693726,ex_001239,DELETE_ADD,I no longer have two older brothers; now I'm an only child.,ex_002271,DELETE_ADD,I no longer have two older siblings; now I'm the only child in my family.,True
+0.9548709392547607,ex_000075,DELETE_ADD,I moved out of Alaska and now live in Oregon.,ex_000807,DELETE_ADD,I moved out of California and now live in Oregon.,True
+0.9546022415161133,ex_000790,CONFLICT,I cannot stand watching films.,ex_001828,CONFLICT,I can't stand watching movies.,True
+0.9534033536911011,ex_002055,DELETE_ADD,I've stopped trying to lose weight and decided to focus on building muscle instead.,ex_002073,DELETE_ADD,I've decided to stop focusing on losing weight and instead prioritize building muscle strength.,True
+0.9527711272239685,ex_000550,CONFLICT,I don't own any pets.,ex_002128,CONFLICT,I don't have any dogs.,True
+0.9527585506439209,ex_001519,ADD,I spend my weekends volunteering at the local animal shelter.,ex_001717,ADD,I spend my days volunteering at the local animal shelter.,True
+0.9524003267288208,ex_000549,DELETE_ADD,I sold my dog and now I have a cat.,ex_000681,DELETE_ADD,I sold my dog and now I'm taking care of a cat.,True
+0.9519524574279785,ex_000568,CONFLICT,I can't stand movies.,ex_001828,CONFLICT,I can't stand watching movies.,True
+0.9518967866897583,ex_002549,IGNORE-NONFACT,"That's a fun choice, pineapple adds such a unique flavor to everything.",ex_002609,IGNORE-NONFACT,"That's a fun choice, pineapple adds such a nice sweetness to things.",True
+0.9517573714256287,ex_002500,CONFLICT,I hate pineapple.,ex_002614,CONFLICT,I hate pineapple juice.,True
+0.9513012766838074,ex_000197,IGNORE-NONFACT,That's a busy time with all the exams coming up.,ex_001523,IGNORE-NONFACT,That must be a busy time of year with all the exams coming up.,True
+0.9498789310455322,ex_001528,CONFLICT,I don't play any instruments or participate in any bands.,ex_001714,CONFLICT,I don't play any instrument.,True
+0.9498045444488525,ex_001333,ADD,I spend my weekends tending to the vegetable garden.,ex_002617,ADD,I spend most weekends tending to my vegetable patch.,True
+0.9484643936157227,ex_002578,CONFLICT,I commute to an office downtown every day.,ex_002659,ADD,I commute to the office every day.,False
+0.9482662677764893,ex_002608,CONFLICT,I hate pineapples.,ex_002614,CONFLICT,I hate pineapple juice.,True
+0.9480054378509521,ex_002257,ADD,I also enjoy painting landscapes on weekends.,ex_002281,ADD,I also enjoy painting landscapes in my spare time.,True
+0.9479820728302002,ex_002707,ADD,I always add a splash of lime juice to keep the flavors bright.,ex_002713,ADD,I always add a squeeze of fresh lime to keep the flavors bright.,True
+0.9475811123847961,ex_001027,ADD,I've been setting up a dedicated office space in the spare bedroom.,ex_002575,ADD,I set up a dedicated office space in the spare bedroom last month.,True
+0.9473543763160706,ex_000826,CONFLICT,I hate the beach and never go there.,ex_002902,CONFLICT,I hate the beach and avoid going there whenever possible.,True
+0.9473508596420288,ex_000523,ADD,I spend most weekends planting flowers and vegetables out there.,ex_001333,ADD,I spend my weekends tending to the vegetable garden.,True
+0.9472531676292419,ex_002588_delete_style_refresh_0069,DELETE,I stopped making fruit salad.,ex_002690_delete_style_refresh_0030,DELETE,I stopped making my own fruit salad recipe.,True
+0.9461867809295654,ex_000218,DELETE,I don't listen to Roxy Music anymore.,ex_001490,DELETE,I don't listen to punk music anymore.,True
+0.9461495876312256,ex_000682,CONFLICT,I don't have any pets.,ex_001438,CONFLICT,I don't own any cats.,True
+0.9453938007354736,ex_000545,IGNORE-NONFACT,"Wow, that's quite an active lifestyle you lead!",ex_002213,IGNORE-NONFACT,"Wow, that's quite an active lifestyle!",True
+0.9451549649238586,ex_000093,DELETE_ADD,I decided against joining the gym and signed up for swimming lessons instead.,ex_000705,DELETE_ADD,I decided against running and signed up for swimming lessons instead.,True
+0.9445134401321411,ex_000579,DELETE_ADD,I stopped drinking Starbucks and now I brew my own coffee at home.,ex_002355,DELETE_ADD,I stopped buying expensive coffee drinks and now I brew my own at home.,True
+0.9444247484207153,ex_000674_delete_style_refresh_0019,DELETE,I wouldn't describe myself as running every day these days.,ex_002150_delete_style_refresh_0221,DELETE,I wouldn't describe myself as someone who ran a mile each day these days.,True
+0.9437680840492249,ex_000161,IGNORE-NONFACT,That schedule must keep you pretty busy throughout the day.,ex_001037,IGNORE-NONFACT,That must keep you pretty busy with all the schedules and activities.,True
+0.9433141946792603,ex_001304_delete_style_refresh_0145,DELETE,I don't live in Pennsylvania anymore.,ex_002018,DELETE,I don't live in North Carolina anymore.,True
+0.9429241418838501,ex_001107,DELETE_ADD,I sold my Precious Moment figurines and now I collect vintage postcards instead.,ex_001179,DELETE_ADD,I stopped buying Precious Moment figurines online and now I collect vintage postcards instead.,True
+0.9423891305923462,ex_000045,DELETE_ADD,"I've stopped running and walking, and now I focus on swimming instead.",ex_002097,DELETE_ADD,I stopped trying to build up my running and now I focus on swimming instead.,True
+0.9409770369529724,ex_000063,DELETE_ADD,I quit programming and now work as a graphic designer.,ex_001689,DELETE_ADD,I stopped painting and now work as a graphic designer.,True
+0.9401828050613403,ex_001785,DELETE_ADD,I stopped gaming and now I spend my free time painting instead.,ex_001869,DELETE_ADD,I quit gaming and now I spend my evenings painting instead.,True
+0.9401654005050659,ex_000584,DELETE,I don't want to buy a camper anymore.,ex_000722_delete_style_refresh_0242,DELETE,I'm not interested in buying a camper anymore.,True
+0.9379767775535583,ex_001904_delete_style_refresh_0273,DELETE,I don't like to cook vegan meals anymore.,ex_002426_delete_style_refresh_0130,DELETE,I'm not interested in vegan recipes anymore.,True
+0.9375550746917725,ex_001029,DELETE_ADD,I've given up on working from home and now commute to the office every day.,ex_002661,DELETE_ADD,I stopped working from home and now commute to the office every day.,True
+0.9367222785949707,ex_000988,CONFLICT,I hate shopping online.,ex_001222,CONFLICT,I hate shopping.,True
+0.9361897706985474,ex_000397,ADD,I make it a point to visit the local farmers market every Saturday morning.,ex_002875,ADD,I try to shop at the farmers market every Saturday morning.,True
+0.9359046220779419,ex_001490,DELETE,I don't listen to punk music anymore.,ex_001640_delete_style_refresh_0093,DELETE,I don't listen to heavy metal music anymore.,True
+0.9358905553817749,ex_000172,CONFLICT,I have no interest in exercising or changing my physique.,ex_001978,CONFLICT,I have no interest in exercising.,True
+0.9355419874191284,ex_000548_delete_style_refresh_0051,DELETE,I don't have a dog anymore.,ex_001262,DELETE,I don't have a cat anymore.,True
+0.934668779373169,ex_001053,DELETE_ADD,I don't have a brother anymore; I'm an only child now.,ex_001239,DELETE_ADD,I no longer have two older brothers; now I'm an only child.,True
+0.9346266984939575,ex_001337,IGNORE-NONFACT,"Oh wow, that must be such a peaceful way to live!",ex_001745,IGNORE-NONFACT,That must be such a peaceful way to live.,True
+0.9335442185401917,ex_000481,ADD,I do enjoy sketching simple landscapes in my free time.,ex_002281,ADD,I also enjoy painting landscapes in my spare time.,True
+0.9335179328918457,ex_000598,CONFLICT,I hate coffee.,ex_002308,CONFLICT,I hate coffee entirely.,True
+0.9332549571990967,ex_000929,IGNORE-NONFACT,That's a fun way to unwind after a long day.,ex_001787,IGNORE-NONFACT,"Wow, that must be a great way to unwind after a long day.",True
+0.9330257177352905,ex_001438,CONFLICT,I don't own any cats.,ex_002524,CONFLICT,I don't own any animals.,True
+0.9329270720481873,ex_000773,IGNORE-NONFACT,"That's a pretty demanding schedule, must be exhausting!",ex_001343,IGNORE-NONFACT,"Wow, that sounds like an intense schedule.",True
+0.932806134223938,ex_000479,IGNORE-NONFACT,That's a fascinating family tradition.,ex_001289,IGNORE-NONFACT,That's a fascinating family background.,True
+0.932303786277771,ex_001832,DELETE,I don't cook healthy meals anymore.,ex_001922_delete_style_refresh_0224,DELETE,I no longer cook vegan food that is healthy.,True
+0.9310675859451294,ex_000562,CONFLICT,I hate Starbucks.,ex_000598,CONFLICT,I hate coffee.,True
+0.9310286045074463,ex_000413,IGNORE-NONFACT,That's a wonderful way to unwind.,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,True
+0.9308853149414062,ex_000969,DELETE_ADD,I stopped listening to country music and now I'm really into jazz.,ex_001491,DELETE_ADD,I stopped listening to punk and now I'm really into jazz.,True
+0.930688738822937,ex_001895,IGNORE-NONFACT,That sounds like a lovely way to spend the evening.,ex_002423,IGNORE-NONFACT,That sounds like a fun way to spend the evening.,True
+0.9303668737411499,ex_001262,DELETE,I don't have a cat anymore.,ex_001436,DELETE,I don't have a calico cat anymore.,True
+0.9301324486732483,ex_000284_delete_style_refresh_0091,DELETE,I stopped wishing I had worked more on my music when I was in high school.,ex_000286,CONFLICT,I don't wish I had worked more on my music in high school.,False
+0.9301185607910156,ex_002685,DELETE_ADD,I stopped making fruit salad and started preparing smoothies instead.,ex_002715,DELETE_ADD,I stopped making fruit salad and now I prefer smoothies instead.,True
+0.9300484657287598,ex_001438,CONFLICT,I don't own any cats.,ex_002128,CONFLICT,I don't have any dogs.,True
+0.9298402070999146,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,ex_002457,DELETE_ADD,I stopped making vegan stir fry and now I mostly grill meat dishes.,True
+0.9295487403869629,ex_000441,DELETE_ADD,I stopped eating fruit and switched to vegetables instead.,ex_002493,DELETE_ADD,I stopped eating fruit and now I prefer vegetables.,True
+0.9293518662452698,ex_000682,CONFLICT,I don't have any pets.,ex_002524,CONFLICT,I don't own any animals.,True
+0.929347574710846,ex_000044,DELETE,I've stopped running and walking.,ex_000650,DELETE,I've stopped going running.,True
+0.9288332462310791,ex_001426,CONFLICT,I don't own a cat.,ex_002164,CONFLICT,I don't have a dog.,True
+0.9288256764411926,ex_000523,ADD,I spend most weekends planting flowers and vegetables out there.,ex_002617,ADD,I spend most weekends tending to my vegetable patch.,True
+0.9281742572784424,ex_001274,DELETE,I don't live in Kansas City anymore.,ex_002018,DELETE,I don't live in North Carolina anymore.,True
+0.9279664754867554,ex_000088,CONFLICT,I hate running.,ex_000652,CONFLICT,I absolutely hate running.,True
+0.9276261329650879,ex_000677,IGNORE-NONFACT,"Wow, that kind of consistency is really impressive.",ex_002135,IGNORE-NONFACT,That's impressive consistency!,True
+0.9275932312011719,ex_000496,CONFLICT,I have never tried to grow an orange tree.,ex_002638,CONFLICT,I have never attempted to grow a pineapple.,True
+0.9267040491104126,ex_001750,CONFLICT,I don't own any barns.,ex_002524,CONFLICT,I don't own any animals.,True
+0.9262232780456543,ex_000413,IGNORE-NONFACT,That's a wonderful way to unwind.,ex_002969,IGNORE-NONFACT,That sounds like a perfect way to unwind.,True
+0.9258350133895874,ex_000568,CONFLICT,I can't stand movies.,ex_000790,CONFLICT,I cannot stand watching films.,True
+0.9258249998092651,ex_000045,DELETE_ADD,"I've stopped running and walking, and now I focus on swimming instead.",ex_000675,DELETE_ADD,I stopped running every day and now I swim instead.,True
+0.9253191947937012,ex_001271,IGNORE-NONFACT,"Oh, that's a really unique choice!",ex_002645,IGNORE-NONFACT,That's a pretty unique preference!,True
+0.9250206351280212,ex_001643,IGNORE-NONFACT,"Heavy metal can be pretty intense to listen to, can't it?",ex_001649,IGNORE-NONFACT,Heavy metal can be so intense to listen to live.,True
+0.9243223667144775,ex_001979,IGNORE-NONFACT,That's a great goal to aim for!,ex_002099,IGNORE-NONFACT,That's a great goal to work toward!,True
+0.9240206480026245,ex_001832,DELETE,I don't cook healthy meals anymore.,ex_001904_delete_style_refresh_0273,DELETE,I don't like to cook vegan meals anymore.,True
+0.9240157008171082,ex_001237,ADD,We often gather for dinner on Sundays to catch up.,ex_001243,ADD,We often gather there for Sunday dinners.,True
+0.9239758253097534,ex_002128,CONFLICT,I don't have any dogs.,ex_002164,CONFLICT,I don't have a dog.,True
+0.9232868552207947,ex_001274,DELETE,I don't live in Kansas City anymore.,ex_001304_delete_style_refresh_0145,DELETE,I don't live in Pennsylvania anymore.,True
+0.9221658110618591,ex_001877,IGNORE-NONFACT,It can be a real challenge to find that balance these days.,ex_001883,IGNORE-NONFACT,That's a tough balance to strike these days.,True
+0.9218540787696838,ex_001423,ADD,I spend most evenings grooming her to keep her coat healthy.,ex_001435,ADD,I usually spend my evenings grooming her to keep her coat shiny.,True
+0.9215307235717773,ex_000442,CONFLICT,I hate fruit.,ex_002500,CONFLICT,I hate pineapple.,True
+0.9214417934417725,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,ex_002969,IGNORE-NONFACT,That sounds like a perfect way to unwind.,True
+0.9211174249649048,ex_000088,CONFLICT,I hate running.,ex_002152,CONFLICT,I hate running and never do it.,True
+0.9206916093826294,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,ex_002409,DELETE_ADD,I stopped eating vegan food and started cooking with meat again.,True
+0.9204325079917908,ex_000442,CONFLICT,I hate fruit.,ex_002608,CONFLICT,I hate pineapples.,True
+0.920311450958252,ex_000044,DELETE,I've stopped running and walking.,ex_002174,DELETE,I've stopped running.,True
+0.9202253222465515,ex_000310,CONFLICT,I live in a city apartment.,ex_001336,CONFLICT,I live in a busy city apartment.,True
+0.9201350212097168,ex_001995,DELETE_ADD,"I used to identify as a woman, but now I'm non-binary.",ex_002283,DELETE_ADD,I no longer identify as female; I'm non-binary now.,True
+0.9194019436836243,ex_001558,CONFLICT,I hate grilled hot dogs.,ex_002002,CONFLICT,I hate barbecue.,True
+0.9190898537635803,ex_000310,CONFLICT,I live in a city apartment.,ex_001744,CONFLICT,I live in a downtown apartment.,True
+0.918587327003479,ex_002128,CONFLICT,I don't have any dogs.,ex_002524,CONFLICT,I don't own any animals.,True
+0.918353259563446,ex_000173,IGNORE-NONFACT,That's a great goal to have!,ex_002099,IGNORE-NONFACT,That's a great goal to work toward!,True
+0.9182941317558289,ex_002100,IGNORE-OTHERS,My training partner says she runs five miles before work every morning.,ex_002761,ADD,I try to run five miles every morning before work.,False
+0.9182342886924744,ex_000015,DELETE_ADD,I left the marketing field and now work as a graphic designer.,ex_000063,DELETE_ADD,I quit programming and now work as a graphic designer.,True
+0.9177813529968262,ex_002587,ADD,I always add a splash of lime juice to keep the fruit from browning.,ex_002707,ADD,I always add a splash of lime juice to keep the flavors bright.,True
+0.9176784753799438,ex_001970_delete_style_refresh_0113,DELETE,I don't like looking for deals online anymore.,ex_002780_delete_style_refresh_0184,DELETE,I don't prefer online shopping anymore.,True
+0.9171276092529297,ex_000051,DELETE_ADD,I moved out of the small town and now live in the city.,ex_001335,DELETE_ADD,I moved away from the farm and now live in the city.,True
+0.9171050786972046,ex_000012,IGNORE-OTHERS,My cousin signed up for a marathon training program last week.,ex_000132,IGNORE-OTHERS,My cousin signed up for a marathon training program at her local fitness center.,True
+0.9167472124099731,ex_002283,DELETE_ADD,I no longer identify as female; I'm non-binary now.,ex_002505,DELETE_ADD,I'm not male anymore; I've transitioned and now identify as female.,True
+0.9167224168777466,ex_000956,DELETE,I haven't seen a Disney movie since Miracle.,ex_000957,DELETE_ADD,I haven't seen a Disney movie since Miracle; my last one was Inside Out.,False
+0.9166742563247681,ex_001096,CONFLICT,I have no interest in buying collectibles.,ex_001120,CONFLICT,I have no interest in collecting figurines.,True
+0.9160454273223877,ex_002744,DELETE,I don't mind having marshmallows in my fruit salad anymore.,ex_002745,DELETE_ADD,I've stopped avoiding marshmallows in my fruit salad and now I love adding them.,False
+0.9156404733657837,ex_001426,CONFLICT,I don't own a cat.,ex_001438,CONFLICT,I don't own any cats.,True
+0.914860188961029,ex_000783,DELETE_ADD,I stopped eating healthy food and now I mostly order fast food.,ex_001833,DELETE_ADD,I stopped cooking healthy meals and now just grab fast food.,True
+0.9147028923034668,ex_000015,DELETE_ADD,I left the marketing field and now work as a graphic designer.,ex_001689,DELETE_ADD,I stopped painting and now work as a graphic designer.,True
+0.9140263795852661,ex_001265,IGNORE-NONFACT,"Oh, that's adorable!",ex_001403,IGNORE-NONFACT,"Oh, that's cute!",True
+0.9132018089294434,ex_001533,DELETE_ADD,I no longer identify as female and now consider myself non-binary.,ex_001995,DELETE_ADD,"I used to identify as a woman, but now I'm non-binary.",True
+0.9129628539085388,ex_000969,DELETE_ADD,I stopped listening to country music and now I'm really into jazz.,ex_002793,DELETE_ADD,"I used to be indifferent about music, but now I'm really into jazz.",True
+0.9128410816192627,ex_000981,DELETE_ADD,I don't have kids anymore; I adopted a rescue dog instead.,ex_001809,DELETE_ADD,I don't have kids anymore; I just adopted a puppy instead.,True
+0.9127026796340942,ex_001056,IGNORE-OTHERS,My cousin's husband just got promoted to manager.,ex_002658,IGNORE-OTHERS,A colleague of mine just got promoted to manager.,True
+0.9125531911849976,ex_000296_delete_style_refresh_0272,DELETE,I'm not a farmer anymore.,ex_001334,DELETE,I don't live on a farm anymore.,True
+0.9125299453735352,ex_002246_delete_style_refresh_0067,DELETE,I don't love coffee anymore.,ex_002306_delete_style_refresh_0100,DELETE,I don't like espresso drinks anymore.,True
+0.9124754667282104,ex_002689,ADD,I always add a squeeze of fresh lime to bring out the flavors.,ex_002707,ADD,I always add a splash of lime juice to keep the flavors bright.,True
+0.9120011329650879,ex_001922_delete_style_refresh_0224,DELETE,I no longer cook vegan food that is healthy.,ex_002426_delete_style_refresh_0130,DELETE,I'm not interested in vegan recipes anymore.,True
+0.9118271470069885,ex_000182_delete_style_refresh_0017,DELETE,I don't play in a band anymore.,ex_002864,DELETE,I don't play the guitar anymore.,True
+0.9114619493484497,ex_000203,IGNORE-NONFACT,That's a pretty cool instrument to master.,ex_001709,IGNORE-NONFACT,That's a pretty unique instrument to master!,True
+0.9114342927932739,ex_000544,CONFLICT,I absolutely hate the outdoors and never exercise.,ex_002212,CONFLICT,I hate the outdoors and avoid all physical activity.,True
+0.9114285111427307,ex_000580,CONFLICT,I hate Starbucks coffee.,ex_002308,CONFLICT,I hate coffee entirely.,True
+0.9109750986099243,ex_000174,IGNORE-OTHERS,My running club just signed up for a charity marathon next month.,ex_000654,IGNORE-OTHERS,My running club just signed up for the city marathon next month.,True
+0.9106112122535706,ex_001108,CONFLICT,I have never collected any figurines.,ex_001180,CONFLICT,I have never bought any figurines online.,True
+0.9105694890022278,ex_001274,DELETE,I don't live in Kansas City anymore.,ex_002942_delete_style_refresh_0137,DELETE,I don't live in that area anymore.,True
+0.9104998111724854,ex_000675,DELETE_ADD,I stopped running every day and now I swim instead.,ex_002097,DELETE_ADD,I stopped trying to build up my running and now I focus on swimming instead.,True
+0.9102042317390442,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,ex_002183,IGNORE-NONFACT,That sounds like a lovely way to take a break.,True
+0.9100208282470703,ex_000069,DELETE_ADD,I stopped grilling steak and now I mostly cook vegetarian meals instead.,ex_002001,DELETE_ADD,I stopped eating barbecue and now I'm trying to cook more vegetarian meals.,True
+0.9099966287612915,ex_001094,DELETE,I don't buy collectibles anymore.,ex_001184,DELETE,I don't look in antique stores anymore.,True
+0.9097843170166016,ex_000682,CONFLICT,I don't have any pets.,ex_002164,CONFLICT,I don't have a dog.,True
+0.9092817306518555,ex_000045,DELETE_ADD,"I've stopped running and walking, and now I focus on swimming instead.",ex_002025,DELETE_ADD,I stopped running five miles daily and now I swim instead.,True
+0.9090352058410645,ex_001334,DELETE,I don't live on a farm anymore.,ex_001346,DELETE,I'm not busy on the farm anymore.,True
+0.9090198278427124,ex_000440_delete_style_refresh_0090,DELETE,I stopped loving fruit.,ex_002540_delete_style_refresh_0157,DELETE,I gave up eating fruit.,True
+0.908949077129364,ex_000755,IGNORE-NONFACT,That's wonderful to hear.,ex_000917,IGNORE-NONFACT,That's great to hear!,True
+0.9089096784591675,ex_002717,IGNORE-NONFACT,"Oh, that's a refreshing idea for a snack!",ex_002801,IGNORE-NONFACT,That's a fun snack to have on hand!,True
+0.9087948799133301,ex_000026,DELETE,I'm not from New England anymore.,ex_001988,DELETE,I'm not from the south anymore.,True
+0.9084672927856445,ex_002100,IGNORE-OTHERS,My training partner says she runs five miles before work every morning.,ex_002173,ADD,I try to run five kilometers every morning before work.,False
+0.9083251953125,ex_000017,IGNORE-NONFACT,That must be a fast-paced environment.,ex_002777,IGNORE-NONFACT,That must be a fast-paced environment to work in.,True
+0.908021092414856,ex_000561,DELETE_ADD,I stopped going to Starbucks and now I make my coffee at home.,ex_002355,DELETE_ADD,I stopped buying expensive coffee drinks and now I brew my own at home.,True
+0.9077418446540833,ex_001274,DELETE,I don't live in Kansas City anymore.,ex_002276_delete_style_refresh_0156,DELETE,I no longer live in the city.,True
+0.9075051546096802,ex_001730_delete_style_refresh_0171,DELETE,"I used to have a resume, but I don't anymore.",ex_001731,DELETE_ADD,I don't have a resume anymore since I created one for my job application.,False
+0.9074280261993408,ex_000218,DELETE,I don't listen to Roxy Music anymore.,ex_001640_delete_style_refresh_0093,DELETE,I don't listen to heavy metal music anymore.,True
+0.9072516560554504,ex_001221,DELETE_ADD,I stopped going shopping and now I order everything online.,ex_001227,DELETE_ADD,I stopped visiting clothing and shoe stores and now I order everything online.,True
+0.9071551561355591,ex_000442,CONFLICT,I hate fruit.,ex_002590,CONFLICT,I hate fruit salad.,True
+0.9067271947860718,ex_000069,DELETE_ADD,I stopped grilling steak and now I mostly cook vegetarian meals instead.,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,True
+0.9066258072853088,ex_000826,CONFLICT,I hate the beach and never go there.,ex_002968,CONFLICT,I hate the beach and I never drink.,True
+0.9065029621124268,ex_000586,CONFLICT,I have no intention of buying a camper for the family.,ex_000724,CONFLICT,I have no interest in buying a camper.,True
+0.9064323902130127,ex_000839,IGNORE-NONFACT,That's a pretty specific preference!,ex_000851,IGNORE-NONFACT,That's a specific preference to have.,True
+0.9064258337020874,ex_001496,DELETE,"I dyed my hair, so I'm not a ginger anymore.",ex_001497,DELETE_ADD,"I dyed my hair black last year, so I'm not a ginger anymore.",False
+0.9062454700469971,ex_001097,IGNORE-NONFACT,That's a fun hobby to have!,ex_001121,IGNORE-NONFACT,That's a fun hobby to get lost in.,True
+0.9060702323913574,ex_001119,DELETE_ADD,I stopped looking for figurines and now I collect vintage stamps instead.,ex_001179,DELETE_ADD,I stopped buying Precious Moment figurines online and now I collect vintage postcards instead.,True
+0.9052120447158813,ex_000530_delete_style_refresh_0248,DELETE,"I used to live far away from the farmers market, but that isn't the case now.",ex_002948_delete_style_refresh_0166,DELETE,I don't live in an area with a monthly farmers market anymore.,True
+0.9051839113235474,ex_001292_delete_style_refresh_0144,DELETE,I don't love hunting anymore.,ex_001376_delete_style_refresh_0050,DELETE,I no longer hunt deer.,True
+0.9048635959625244,ex_002689,ADD,I always add a squeeze of fresh lime to bring out the flavors.,ex_002725,ADD,I always add a squeeze of lime to the yellow ones to enhance their sweetness.,True
+0.904593288898468,ex_000554,DELETE,I don't like blonde roast coffee anymore.,ex_002246_delete_style_refresh_0067,DELETE,I don't love coffee anymore.,True
+0.9043052196502686,ex_000011,IGNORE-NONFACT,"Wow, that takes real dedication to stick with it.",ex_002201,IGNORE-NONFACT,"Wow, that takes serious dedication!",True
+0.9042890071868896,ex_000770_delete_style_refresh_0181,DELETE,I wouldn't describe myself as having a secondary job as a plumber these days.,ex_000776_delete_style_refresh_0007,DELETE,I wouldn't describe my job as a plumber as messy these days.,True
+0.9037078619003296,ex_002457,DELETE_ADD,I stopped making vegan stir fry and now I mostly grill meat dishes.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.9033960103988647,ex_002534_delete_style_refresh_0097,DELETE,I no longer like to be my own boss.,ex_002582_delete_style_refresh_0083,DELETE,I no longer work as my own boss.,True
+0.9032607078552246,ex_000077,IGNORE-NONFACT,"Wow, that must be a unique place to grow up!",ex_002021,IGNORE-NONFACT,That's a great place to grow up!,True
+0.9024690985679626,ex_002100,IGNORE-OTHERS,My training partner says she runs five miles before work every morning.,ex_002154,IGNORE-OTHERS,My marathon training partner says she runs five miles before breakfast.,True
+0.9021626710891724,ex_000274,CONFLICT,I have never attended a concert with my brothers.,ex_000406,CONFLICT,I have never attended a concert.,True
+0.9017695784568787,ex_000553,ADD,I usually brew a fresh pot before heading to work.,ex_002311,ADD,I usually brew a fresh pot every morning before heading out.,True
+0.9013911485671997,ex_000615,DELETE_ADD,I stopped running and started swimming to keep in shape.,ex_002097,DELETE_ADD,I stopped trying to build up my running and now I focus on swimming instead.,True
+0.9012851715087891,ex_001491,DELETE_ADD,I stopped listening to punk and now I'm really into jazz.,ex_001635,DELETE_ADD,I've stopped trying to learn punk music and have gotten into jazz instead.,True
+0.9012170433998108,ex_000836_delete_style_refresh_0165,DELETE,I no longer like movies more than sunsets.,ex_000837,DELETE_ADD,I don't care about movies anymore; I've started preferring sunsets.,False
+0.9009799361228943,ex_000801,DELETE_ADD,I stopped being a stay-at-home mom and started working as a part-time consultant.,ex_002013,DELETE_ADD,I stopped being a homemaker and started working as a consultant.,True
+0.9007599353790283,ex_001533,DELETE_ADD,I no longer identify as female and now consider myself non-binary.,ex_002259,DELETE_ADD,"I used to identify as female, but now I identify as non-binary.",True
+0.9000239968299866,ex_000894,IGNORE-OTHERS,A group of tourists I saw last summer took that same tour and said the view was unforgettable.,ex_000900,IGNORE-OTHERS,A group of tourists I saw last summer took a sunset tour and said the views were incredible.,True
+0.8998723030090332,ex_001053,DELETE_ADD,I don't have a brother anymore; I'm an only child now.,ex_002271,DELETE_ADD,I no longer have two older siblings; now I'm the only child in my family.,True
+0.8998263478279114,ex_001336,CONFLICT,I live in a busy city apartment.,ex_002266,CONFLICT,I grew up in a busy city apartment.,True
+0.8998119831085205,ex_001510,CONFLICT,I hate having cook outs.,ex_002002,CONFLICT,I hate barbecue.,True
+0.8997229933738708,ex_000912,IGNORE-OTHERS,My colleague mentioned they've been swamped with deadlines all week.,ex_001356,IGNORE-OTHERS,My boss mentioned that the whole team is swamped with deadlines this week.,True
+0.899356484413147,ex_001005,DELETE_ADD,I stopped composing music and now I focus on painting instead.,ex_001725,DELETE_ADD,I stopped writing and started painting instead.,True
+0.8991807699203491,ex_001186,CONFLICT,I never go into antique stores.,ex_001228,CONFLICT,I never go into clothing or shoe stores.,True
+0.8988714218139648,ex_000567,DELETE_ADD,I've stopped watching movies and now I prefer reading books.,ex_001827,DELETE_ADD,I stopped watching movies and started reading books instead.,True
+0.8987329006195068,ex_000559,ADD,I usually grab a latte there on my way to work.,ex_002353,ADD,I usually grab a latte on my way to work every morning.,True
+0.8985528945922852,ex_000070,CONFLICT,I hate eating steak.,ex_002002,CONFLICT,I hate barbecue.,True
+0.8985445499420166,ex_001325,IGNORE-NONFACT,That sounds like a cozy way to spend an evening.,ex_001895,IGNORE-NONFACT,That sounds like a lovely way to spend the evening.,True
+0.8985135555267334,ex_002713,ADD,I always add a squeeze of fresh lime to keep the flavors bright.,ex_002725,ADD,I always add a squeeze of lime to the yellow ones to enhance their sweetness.,True
+0.8982259035110474,ex_000129,DELETE_ADD,I stopped going to the gym and now I work out at home instead.,ex_000165,DELETE_ADD,I decided not to join the gym and instead started doing home workouts.,True
+0.8976732492446899,ex_000700,CONFLICT,I don't own a television.,ex_001798,CONFLICT,I don't own a laptop.,True
+0.8976394534111023,ex_000027,DELETE_ADD,I moved from New England to the Pacific Northwest last year.,ex_001989,DELETE_ADD,I moved away from the south and now live in the Pacific Northwest.,True
+0.8974647521972656,ex_001304_delete_style_refresh_0145,DELETE,I don't live in Pennsylvania anymore.,ex_002942_delete_style_refresh_0137,DELETE,I don't live in that area anymore.,True
+0.8974235653877258,ex_000305,IGNORE-NONFACT,That's a pretty interesting family background.,ex_000479,IGNORE-NONFACT,That's a fascinating family tradition.,True
+0.8974120020866394,ex_000556,CONFLICT,I hate blonde roast coffee.,ex_000598,CONFLICT,I hate coffee.,True
+0.8972580432891846,ex_000076,CONFLICT,I was born and raised in Florida.,ex_002044,CONFLICT,My parents were born and raised in Florida.,True
+0.897255539894104,ex_002018,DELETE,I don't live in North Carolina anymore.,ex_002942_delete_style_refresh_0137,DELETE,I don't live in that area anymore.,True
+0.8970241546630859,ex_000820,CONFLICT,I love walking on the beach.,ex_000850,CONFLICT,I love the sand at the beach.,True
+0.8965206146240234,ex_001017,DELETE_ADD,I found a position and stopped looking for work.,ex_001670_delete_style_refresh_0008,DELETE,I stopped looking for work.,False
+0.8963033556938171,ex_001787,IGNORE-NONFACT,"Wow, that must be a great way to unwind after a long day.",ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,True
+0.8962430953979492,ex_000548_delete_style_refresh_0051,DELETE,I don't have a dog anymore.,ex_002522,DELETE,I don't have a horse anymore.,True
+0.8961446285247803,ex_002259,DELETE_ADD,"I used to identify as female, but now I identify as non-binary.",ex_002283,DELETE_ADD,I no longer identify as female; I'm non-binary now.,True
+0.8961102366447449,ex_000411,DELETE_ADD,I stopped painting and started sculpting instead.,ex_001725,DELETE_ADD,I stopped writing and started painting instead.,True
+0.8960117697715759,ex_002432,DELETE,I don't mind tofu as a substitute anymore.,ex_002468,DELETE,I don't take a while to get used to tofu anymore.,True
+0.8957364559173584,ex_002183,IGNORE-NONFACT,That sounds like a lovely way to take a break.,ex_002903,IGNORE-NONFACT,That sounds like a great way to relax.,True
+0.8952859044075012,ex_002586,IGNORE-OTHERS,A colleague of mine just got promoted to manage their own team.,ex_002658,IGNORE-OTHERS,A colleague of mine just got promoted to manager.,True
+0.8950886726379395,ex_001196,DELETE,I don't donate clothes anymore.,ex_001214_delete_style_refresh_0235,DELETE,I don't want to donate clothes anymore.,True
+0.8948618769645691,ex_000695,IGNORE-NONFACT,That must be a lot to handle on your own.,ex_001349,IGNORE-NONFACT,That must be a lot of work to handle alone.,True
+0.8948028087615967,ex_000652,CONFLICT,I absolutely hate running.,ex_002152,CONFLICT,I hate running and never do it.,True
+0.8947539925575256,ex_001790,DELETE,I don't like the game Alistar anymore.,ex_001916,DELETE,I don't play the video game Alistar anymore.,True
+0.8946419954299927,ex_002025,DELETE_ADD,I stopped running five miles daily and now I swim instead.,ex_002097,DELETE_ADD,I stopped trying to build up my running and now I focus on swimming instead.,True
+0.8945940732955933,ex_000550,CONFLICT,I don't own any pets.,ex_001750,CONFLICT,I don't own any barns.,True
+0.8942440748214722,ex_000848_delete_style_refresh_0141,DELETE,I no longer dislike the sand at the beach.,ex_000849,DELETE_ADD,I don't mind the sand anymore since I've started preferring the rocky shoreline.,False
+0.8938767910003662,ex_000956,DELETE,I haven't seen a Disney movie since Miracle.,ex_000958,CONFLICT,I haven't seen any Disney movies in years.,False
+0.893684446811676,ex_000182_delete_style_refresh_0017,DELETE,I don't play in a band anymore.,ex_000404,DELETE,I don't go to concerts anymore.,True
+0.8933847546577454,ex_000028,CONFLICT,I am from the Midwest.,ex_000811,ADD,I currently reside in the Midwest.,False
+0.8933684825897217,ex_000255,DELETE_ADD,I've dropped out of school and started working at a coffee shop.,ex_001521,DELETE_ADD,I dropped out of high school and started working at a local cafe.,True
+0.8931965827941895,ex_000538,CONFLICT,I hate being outside.,ex_001318,CONFLICT,I hate warm weather.,True
+0.8931165933609009,ex_000887,IGNORE-NONFACT,"Yeah, that can be really tough to balance sometimes.",ex_001877,IGNORE-NONFACT,It can be a real challenge to find that balance these days.,True
+0.8930163979530334,ex_001750,CONFLICT,I don't own any barns.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.8929651975631714,ex_000556,CONFLICT,I hate blonde roast coffee.,ex_000580,CONFLICT,I hate Starbucks coffee.,True
+0.892810583114624,ex_000442,CONFLICT,I hate fruit.,ex_000520,CONFLICT,I dislike oranges.,True
+0.8926064968109131,ex_002540_delete_style_refresh_0157,DELETE,I gave up eating fruit.,ex_002546_delete_style_refresh_0089,DELETE,I gave up eating pineapple.,True
+0.8925172090530396,ex_001784_delete_style_refresh_0068,DELETE,I don't really enjoy gaming anymore.,ex_001802_delete_style_refresh_0022,DELETE,I don't like playing games on it anymore.,True
+0.892392635345459,ex_000620,DELETE,I don't drink caramel macchiatos from Starbucks anymore.,ex_002306_delete_style_refresh_0100,DELETE,I don't like espresso drinks anymore.,True
+0.8922709822654724,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,ex_002427,DELETE_ADD,I stopped looking for vegan recipes and started focusing on traditional meat dishes instead.,True
+0.8921257257461548,ex_002720_delete_style_refresh_0147,DELETE,I no longer like adding kiwis to my fruit salad.,ex_002726_delete_style_refresh_0188,DELETE,I don't prefer yellow kiwis to green for fruit salad anymore.,True
+0.8918302655220032,ex_000875,IGNORE-NONFACT,That's a fun mix of genres to enjoy.,ex_000965,IGNORE-NONFACT,"Oh, that's a fun genre to get into together.",True
+0.8913501501083374,ex_000295,ADD,I spend most of my mornings tending to the vegetable patches before the sun gets too high.,ex_001345,ADD,I spend most of my mornings tending to the vegetable gardens.,True
+0.8909958600997925,ex_000442,CONFLICT,I hate fruit.,ex_002614,CONFLICT,I hate pineapple juice.,True
+0.8908616304397583,ex_002158,CONFLICT,I don't own any dogs.,ex_002164,CONFLICT,I don't have a dog.,True
+0.8906394839286804,ex_000559,ADD,I usually grab a latte there on my way to work.,ex_002161,ADD,I usually grab a coffee at a local cafe right after our walk.,True
+0.8906216621398926,ex_002252,DELETE,I don't have that espresso machine anymore.,ex_002306_delete_style_refresh_0100,DELETE,I don't like espresso drinks anymore.,True
+0.890211820602417,ex_002726_delete_style_refresh_0188,DELETE,I don't prefer yellow kiwis to green for fruit salad anymore.,ex_002727,DELETE_ADD,I've switched from yellow kiwis to green ones for my fruit salads.,False
+0.8899726271629333,ex_000878_delete_style_refresh_0072,DELETE,My kids are no longer school-age.,ex_001034,DELETE,I don't have school aged children anymore.,True
+0.889611005783081,ex_001480,CONFLICT,I am currently working as a software engineer.,ex_001522,CONFLICT,I am a full-time software engineer.,True
+0.8894598484039307,ex_000796,CONFLICT,I never watch movies with my kids.,ex_001876,CONFLICT,My kids never play video games.,True
+0.889019250869751,ex_002075,IGNORE-NONFACT,"That's a tough goal to work toward, but good luck with it!",ex_002099,IGNORE-NONFACT,That's a great goal to work toward!,True
+0.8886399269104004,ex_002218,CONFLICT,I can't stand music.,ex_002842,CONFLICT,I can't stand country music.,True
+0.8880836963653564,ex_000011,IGNORE-NONFACT,"Wow, that takes real dedication to stick with it.",ex_000125,IGNORE-NONFACT,"Wow, that takes serious discipline to stick with.",True
+0.8869298100471497,ex_002582_delete_style_refresh_0083,DELETE,I no longer work as my own boss.,ex_002654_delete_style_refresh_0015,DELETE,I no longer work for someone else.,True
+0.8867397904396057,ex_001537,ADD,I spend most of my free time reading English literature.,ex_001627,ADD,I still enjoy reading English literature in my free time.,True
+0.8865571022033691,ex_000929,IGNORE-NONFACT,That's a fun way to unwind after a long day.,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,True
+0.8861974477767944,ex_002440,CONFLICT,I hate plain tofu.,ex_002476,CONFLICT,I can't stand tofu.,True
+0.8861840963363647,ex_002057,IGNORE-NONFACT,"That's a tough goal, but I hope it works out for you.",ex_002075,IGNORE-NONFACT,"That's a tough goal to work toward, but good luck with it!",True
+0.8860421180725098,ex_002552_delete_style_refresh_0086,DELETE,That isn't true for me now.,ex_002876_delete_style_refresh_0238,DELETE,That belief isn't true for me now.,True
+0.8857959508895874,ex_000068,DELETE,I don't grill steak anymore.,ex_002810_delete_style_refresh_0026,DELETE,I don't love rib eye steak anymore.,True
+0.8855878114700317,ex_002028,IGNORE-OTHERS,My marathon training partner says she runs that distance every morning before work.,ex_002100,IGNORE-OTHERS,My training partner says she runs five miles before work every morning.,True
+0.8853415250778198,ex_002427,DELETE_ADD,I stopped looking for vegan recipes and started focusing on traditional meat dishes instead.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.884788990020752,ex_001055,IGNORE-NONFACT,"Oh, that's awesome!",ex_001319,IGNORE-NONFACT,"Oh, that's exciting!",True
+0.8847559690475464,ex_000634,CONFLICT,I hate being outdoors.,ex_001318,CONFLICT,I hate warm weather.,True
+0.8847450613975525,ex_000862,CONFLICT,I never watch movies with my children.,ex_001876,CONFLICT,My kids never play video games.,True
+0.8841941356658936,ex_001126,CONFLICT,I hate shopping for shoes.,ex_001132,CONFLICT,I hate wearing sandals.,True
+0.8841139674186707,ex_001510,CONFLICT,I hate having cook outs.,ex_001558,CONFLICT,I hate grilled hot dogs.,True
+0.8837649822235107,ex_000497,IGNORE-NONFACT,"Wow, that sounds like quite an ambitious gardening project!",ex_002639,IGNORE-NONFACT,"Wow, that's a bold gardening experiment!",True
+0.8836578130722046,ex_001126,CONFLICT,I hate shopping for shoes.,ex_001162,CONFLICT,I hate buying basketball shoes.,True
+0.883425235748291,ex_002906,DELETE,I live close to a co-op now.,ex_002908,CONFLICT,I live right next to a co-op.,False
+0.8833900690078735,ex_002689,ADD,I always add a squeeze of fresh lime to bring out the flavors.,ex_002743,ADD,I always add a squeeze of fresh lime to my fruit salad for extra zest.,True
+0.8831588625907898,ex_001491,DELETE_ADD,I stopped listening to punk and now I'm really into jazz.,ex_002793,DELETE_ADD,"I used to be indifferent about music, but now I'm really into jazz.",True
+0.8829740285873413,ex_000550,CONFLICT,I don't own any pets.,ex_001426,CONFLICT,I don't own a cat.,True
+0.8826408386230469,ex_001474,CONFLICT,I don't own any land.,ex_002524,CONFLICT,I don't own any animals.,True
+0.882437527179718,ex_000068,DELETE,I don't grill steak anymore.,ex_001556,DELETE,I don't eat grilled hot dogs anymore.,True
+0.882372260093689,ex_000634,CONFLICT,I hate being outdoors.,ex_002212,CONFLICT,I hate the outdoors and avoid all physical activity.,True
+0.8820604085922241,ex_002409,DELETE_ADD,I stopped eating vegan food and started cooking with meat again.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.8815256357192993,ex_000562,CONFLICT,I hate Starbucks.,ex_002308,CONFLICT,I hate coffee entirely.,True
+0.8814457654953003,ex_000622,CONFLICT,I hate caramel macchiatos.,ex_002998,CONFLICT,I hate chocolate.,True
+0.8813860416412354,ex_000026,DELETE,I'm not from New England anymore.,ex_001304_delete_style_refresh_0145,DELETE,I don't live in Pennsylvania anymore.,True
+0.8813802003860474,ex_002276_delete_style_refresh_0156,DELETE,I no longer live in the city.,ex_002942_delete_style_refresh_0137,DELETE,I don't live in that area anymore.,True
+0.8813550472259521,ex_000008_delete_style_refresh_0129,DELETE,I don't enjoy exercising at the gym anymore.,ex_000122_delete_style_refresh_0005,DELETE,I don't lift weights at the gym anymore.,True
+0.8813157081604004,ex_002703,DELETE_ADD,I finally saw a yellow kiwi today after years of only knowing the green ones.,ex_002704,CONFLICT,I have seen a yellow kiwi.,False
+0.8810338973999023,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,ex_002903,IGNORE-NONFACT,That sounds like a great way to relax.,True
+0.8810146450996399,ex_000045,DELETE_ADD,"I've stopped running and walking, and now I focus on swimming instead.",ex_000615,DELETE_ADD,I stopped running and started swimming to keep in shape.,True
+0.8801591992378235,ex_002050,CONFLICT,I avoid all low-carb diets completely.,ex_002110,CONFLICT,I avoid the Keto diet completely.,True
+0.8799349069595337,ex_000505,ADD,I'm planning to grow a few herbs on the windowsill too.,ex_002299,ADD,I keep a few houseplants on my windowsill to bring some greenery inside.,True
+0.8798922300338745,ex_000597,DELETE_ADD,I stopped drinking coffee at sunrise and switched to tea instead.,ex_002247,DELETE_ADD,I stopped drinking coffee and switched to herbal tea instead.,True
+0.8798037767410278,ex_002428,CONFLICT,I have no interest in vegan cooking.,ex_002464,CONFLICT,I don't eat any vegan food.,True
+0.8796260356903076,ex_000069,DELETE_ADD,I stopped grilling steak and now I mostly cook vegetarian meals instead.,ex_002457,DELETE_ADD,I stopped making vegan stir fry and now I mostly grill meat dishes.,True
+0.8794721364974976,ex_000988,CONFLICT,I hate shopping online.,ex_001972,CONFLICT,I hate shopping online and never look for discounts.,True
+0.8793917894363403,ex_000440_delete_style_refresh_0090,DELETE,I stopped loving fruit.,ex_000518_delete_style_refresh_0243,DELETE,I stopped liking oranges.,True
+0.8792290091514587,ex_000926_delete_style_refresh_0281,DELETE,I no longer like watching sport movies on Disney.,ex_000962_delete_style_refresh_0040,DELETE,My husband no longer enjoys Disney sports movies.,True
+0.8791689276695251,ex_000839,IGNORE-NONFACT,That's a pretty specific preference!,ex_002645,IGNORE-NONFACT,That's a pretty unique preference!,True
+0.8788944482803345,ex_001906,CONFLICT,I avoid cooking vegan meals entirely.,ex_002410,CONFLICT,I avoid all plant-based dishes.,True
+0.8787837624549866,ex_000618,IGNORE-OTHERS,My cousin has been training for a marathon all summer.,ex_002214,IGNORE-OTHERS,My cousin is training for a marathon and spends every weekend running trails.,True
+0.878609299659729,ex_000826,CONFLICT,I hate the beach and never go there.,ex_000856,CONFLICT,My kids hate the beach.,True
+0.8785946369171143,ex_001832,DELETE,I don't cook healthy meals anymore.,ex_002426_delete_style_refresh_0130,DELETE,I'm not interested in vegan recipes anymore.,True
+0.8785548806190491,ex_000695,IGNORE-NONFACT,That must be a lot to handle on your own.,ex_001487,IGNORE-NONFACT,That's a lot of pressure to handle on your own.,True
+0.8783433437347412,ex_002002,CONFLICT,I hate barbecue.,ex_002452,CONFLICT,I hate cooking tacos.,True
+0.8783251047134399,ex_001426,CONFLICT,I don't own a cat.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.8779142498970032,ex_001124_delete_style_refresh_0095,DELETE,"I used to like buying shoes, but not these days.",ex_001154,DELETE,I don't spend much on shoes anymore.,True
+0.8777468204498291,ex_001102,CONFLICT,I never buy clothes for children.,ex_001228,CONFLICT,I never go into clothing or shoe stores.,True
+0.8771287202835083,ex_000303,DELETE_ADD,My parents stopped farming and now work as mechanics.,ex_001233,DELETE_ADD,My father stopped farming and now works as a mechanic.,True
+0.8770099878311157,ex_000019,ADD,I make sure to include plenty of beans and lentils in my meals.,ex_002485,ADD,I make sure to include plenty of lentils and tofu in my meals.,True
+0.8769542574882507,ex_000069,DELETE_ADD,I stopped grilling steak and now I mostly cook vegetarian meals instead.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.876939058303833,ex_002713,ADD,I always add a squeeze of fresh lime to keep the flavors bright.,ex_002743,ADD,I always add a squeeze of fresh lime to my fruit salad for extra zest.,True
+0.8768963813781738,ex_001757,IGNORE-NONFACT,That must be a really peaceful way to unwind.,ex_002165,IGNORE-NONFACT,That sounds like a nice way to unwind.,True
+0.8768646717071533,ex_001262,DELETE,I don't have a cat anymore.,ex_001298_delete_style_refresh_0098,DELETE,I don't love cats anymore.,True
+0.8768261075019836,ex_001587,DELETE_ADD,I don't listen to Choking Victim or NOFX anymore; I've gotten really into punk bands like The Clash and Bad Religion.,ex_001659,DELETE_ADD,I stopped listening to NOFX and now I'm really into punk rock bands like Rancid.,True
+0.8765969276428223,ex_002715,DELETE_ADD,I stopped making fruit salad and now I prefer smoothies instead.,ex_002739,DELETE_ADD,I stopped adding marshmallows to fruit salad and now I just use fresh berries instead.,True
+0.8765838146209717,ex_000695,IGNORE-NONFACT,That must be a lot to handle on your own.,ex_001475,IGNORE-NONFACT,"Wow, that must be a lot of ground to manage on your own.",True
+0.8765538930892944,ex_000771,DELETE_ADD,I quit plumbing and now work as a freelance graphic designer.,ex_001689,DELETE_ADD,I stopped painting and now work as a graphic designer.,True
+0.8764599561691284,ex_000093,DELETE_ADD,I decided against joining the gym and signed up for swimming lessons instead.,ex_000669,DELETE_ADD,I've decided against learning yoga and signed up for swimming lessons instead.,True
+0.8762098550796509,ex_002762_delete_style_refresh_0009,DELETE,I stopped liking running rather than watching movies.,ex_002763,DELETE_ADD,I stopped enjoying running and now I prefer watching movies.,False
+0.8761998414993286,ex_000413,IGNORE-NONFACT,That's a wonderful way to unwind.,ex_001757,IGNORE-NONFACT,That must be a really peaceful way to unwind.,True
+0.8761085271835327,ex_000296_delete_style_refresh_0272,DELETE,I'm not a farmer anymore.,ex_000302,DELETE,My parents aren't farmers anymore.,True
+0.8760042786598206,ex_000008_delete_style_refresh_0129,DELETE,I don't enjoy exercising at the gym anymore.,ex_001976_delete_style_refresh_0174,DELETE,I don't want to exercise more anymore.,True
+0.8759689331054688,ex_000254,DELETE,I'm not busy with school anymore.,ex_002984_delete_style_refresh_0134,DELETE,I don't go to school anymore.,True
+0.8757782578468323,ex_002040,IGNORE-OTHERS,A former colleague of mine just launched a startup in the fintech space.,ex_002778,IGNORE-OTHERS,A colleague of mine just switched to a startup in the fintech sector.,True
+0.8756922483444214,ex_000524_delete_style_refresh_0131,DELETE,I don't have a yard anymore.,ex_001334,DELETE,I don't live on a farm anymore.,True
+0.8756772875785828,ex_001016,DELETE,I found a job and stopped looking.,ex_001670_delete_style_refresh_0008,DELETE,I stopped looking for work.,True
+0.8754870891571045,ex_000544,CONFLICT,I absolutely hate the outdoors and never exercise.,ex_000652,CONFLICT,I absolutely hate running.,True
+0.8754146695137024,ex_000550,CONFLICT,I don't own any pets.,ex_002164,CONFLICT,I don't have a dog.,True
+0.8754100799560547,ex_001154,DELETE,I don't spend much on shoes anymore.,ex_001155,DELETE_ADD,"I stopped buying so many shoes and now I invest in fewer, higher-quality pairs.",False
+0.8745964169502258,ex_001604,DELETE,I don't like math more than history anymore.,ex_001605,DELETE_ADD,I stopped liking math and now prefer history.,False
+0.8745417594909668,ex_000153,DELETE_ADD,I quit my desk job and started working as a landscape gardener.,ex_000297,DELETE_ADD,I stopped farming and now work as a landscaper.,True
+0.874398946762085,ex_000218,DELETE,I don't listen to Roxy Music anymore.,ex_000968_delete_style_refresh_0039,DELETE,I don't like country music anymore.,True
+0.8741785287857056,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,ex_002001,DELETE_ADD,I stopped eating barbecue and now I'm trying to cook more vegetarian meals.,True
+0.8740895390510559,ex_000220,CONFLICT,I can't stand Roxy Music.,ex_002842,CONFLICT,I can't stand country music.,True
+0.8735478520393372,ex_000082,CONFLICT,I hate wearing warm pants.,ex_001318,CONFLICT,I hate warm weather.,True
+0.8735109567642212,ex_001908,IGNORE-OTHERS,My roommate is trying out some new plant-based recipes this week.,ex_002412,IGNORE-OTHERS,My coworker has been experimenting with new plant-based recipes lately.,True
+0.8735074400901794,ex_001126,CONFLICT,I hate shopping for shoes.,ex_001222,CONFLICT,I hate shopping.,True
+0.8734986782073975,ex_000088,CONFLICT,I hate running.,ex_002176,CONFLICT,I absolutely detest running.,True
+0.8733010292053223,ex_000442,CONFLICT,I hate fruit.,ex_002716,CONFLICT,I hate mixing fruit together.,True
+0.8732150793075562,ex_001501,ADD,I spend most weekends solving complex math puzzles just for fun.,ex_001603,ADD,I spend most weekends solving complex logic puzzles.,True
+0.8728162050247192,ex_001394,DELETE,I finally had a deer mounted last month.,ex_001395,DELETE_ADD,I finally got a deer mounted after years of hunting.,False
+0.8726966381072998,ex_001298_delete_style_refresh_0098,DELETE,I don't love cats anymore.,ex_001436,DELETE,I don't have a calico cat anymore.,True
+0.8723419308662415,ex_001995,DELETE_ADD,"I used to identify as a woman, but now I'm non-binary.",ex_002505,DELETE_ADD,I'm not male anymore; I've transitioned and now identify as female.,True
+0.8722123503684998,ex_000063,DELETE_ADD,I quit programming and now work as a graphic designer.,ex_000771,DELETE_ADD,I quit plumbing and now work as a freelance graphic designer.,True
+0.8718887567520142,ex_002587,ADD,I always add a splash of lime juice to keep the fruit from browning.,ex_002713,ADD,I always add a squeeze of fresh lime to keep the flavors bright.,True
+0.8717997074127197,ex_000417,DELETE_ADD,I stopped painting musicians and now I focus on landscapes.,ex_000459,DELETE_ADD,I've given up on painting animals and now I focus on landscapes instead.,True
+0.8717389106750488,ex_000302,DELETE,My parents aren't farmers anymore.,ex_001244,DELETE,My brothers don't work on the farm anymore.,True
+0.8716521263122559,ex_000615,DELETE_ADD,I stopped running and started swimming to keep in shape.,ex_000675,DELETE_ADD,I stopped running every day and now I swim instead.,True
+0.8711578249931335,ex_000004,CONFLICT,I don't own any vehicles.,ex_002524,CONFLICT,I don't own any animals.,True
+0.8710678815841675,ex_002546_delete_style_refresh_0089,DELETE,I gave up eating pineapple.,ex_002636,DELETE,I gave up trying to grow pineapples.,True
+0.8710202574729919,ex_001558,CONFLICT,I hate grilled hot dogs.,ex_002452,CONFLICT,I hate cooking tacos.,True
+0.8707391023635864,ex_001102,CONFLICT,I never buy clothes for children.,ex_001198,CONFLICT,I never donate clothes.,True
+0.8707213997840881,ex_000565,ADD,I make it a point to catch the latest sci-fi releases on opening night.,ex_000787,ADD,I make it a point to catch the latest sci-fi releases whenever they hit theaters.,True
+0.8706957101821899,ex_001295,IGNORE-NONFACT,"That's an intense skill to pick up, must have taken some patience to master.",ex_001385,IGNORE-NONFACT,That's a pretty intense skill to pick up.,True
+0.8703718781471252,ex_002590,CONFLICT,I hate fruit salad.,ex_002716,CONFLICT,I hate mixing fruit together.,True
+0.8703653216362,ex_000450,IGNORE-OTHERS,Some historians argue that General Forrest's military strategies were quite controversial.,ex_000474,IGNORE-OTHERS,Historians often debate how Forrest's military tactics influenced later generations of commanders.,True
+0.869856595993042,ex_001474,CONFLICT,I don't own any land.,ex_001750,CONFLICT,I don't own any barns.,True
+0.8697595000267029,ex_001438,CONFLICT,I don't own any cats.,ex_001750,CONFLICT,I don't own any barns.,True
+0.8697167038917542,ex_002384,DELETE,I don't really care about customer service anymore.,ex_002386,CONFLICT,I don't really care about customer service.,False
+0.8695461750030518,ex_001533,DELETE_ADD,I no longer identify as female and now consider myself non-binary.,ex_002505,DELETE_ADD,I'm not male anymore; I've transitioned and now identify as female.,True
+0.8694420456886292,ex_000026,DELETE,I'm not from New England anymore.,ex_002018,DELETE,I don't live in North Carolina anymore.,True
+0.8692851066589355,ex_000538,CONFLICT,I hate being outside.,ex_002212,CONFLICT,I hate the outdoors and avoid all physical activity.,True
+0.8692290782928467,ex_000887,IGNORE-NONFACT,"Yeah, that can be really tough to balance sometimes.",ex_001883,IGNORE-NONFACT,That's a tough balance to strike these days.,True
+0.8691192269325256,ex_000856,CONFLICT,My kids hate the beach.,ex_002902,CONFLICT,I hate the beach and avoid going there whenever possible.,True
+0.8690410256385803,ex_001184,DELETE,I don't look in antique stores anymore.,ex_001220,DELETE,I don't go shopping anymore.,True
+0.8689484596252441,ex_000782_delete_style_refresh_0265,DELETE,I wouldn't describe myself as liking healthy food these days.,ex_002030_delete_style_refresh_0159,DELETE,I wouldn't describe myself as eating a protein-heavy diet these days.,True
+0.8688722848892212,ex_000535,ADD,Weekend camping trips have become my favorite way to unwind.,ex_000709,ADD,Camping under the stars in those parks has become my favorite way to unwind.,True
+0.8684630393981934,ex_000208,CONFLICT,I live in Austin.,ex_000808,CONFLICT,I live in Texas.,True
+0.8684439659118652,ex_002342_delete_style_refresh_0199,DELETE,I am picky when it comes to food.,ex_002344,CONFLICT,I am extremely picky about what I eat.,False
+0.8684227466583252,ex_002095,ADD,I've started doing daily stretching routines to build my stamina.,ex_002101,ADD,I try to do light stretching every morning to improve my stamina.,True
+0.8683075308799744,ex_001904_delete_style_refresh_0273,DELETE,I don't like to cook vegan meals anymore.,ex_002408_delete_style_refresh_0082,DELETE,"I used to like vegan food, but not these days.",True
+0.8680694103240967,ex_000569,IGNORE-NONFACT,"Oh, that's awesome! Do you have a favorite genre?",ex_002543,IGNORE-NONFACT,"Oh, that's great! Do you have a favorite one?",True
+0.8679875135421753,ex_001774,CONFLICT,I hate rain forests.,ex_001780,CONFLICT,I hate the idea of going to a rain forest.,True
+0.8678598403930664,ex_000145,ADD,I usually head to the gym right after work to keep my schedule flexible.,ex_000157,ADD,"After the workday ends, I usually go to the gym for an hour.",True
+0.8674763441085815,ex_001640_delete_style_refresh_0093,DELETE,I don't listen to heavy metal music anymore.,ex_002792,DELETE,I don't have a preference in music anymore.,True
+0.8674490451812744,ex_000146_delete_style_refresh_0231,DELETE,I gave up working out alone.,ex_000164_delete_style_refresh_0021,DELETE,I gave up joining a gym near me.,True
+0.8673720359802246,ex_001905,DELETE_ADD,I stopped cooking vegan meals and now I enjoy making seafood dishes instead.,ex_002391,DELETE_ADD,I stopped being vegan and now eat fish occasionally.,True
+0.8671899437904358,ex_001336,CONFLICT,I live in a busy city apartment.,ex_001744,CONFLICT,I live in a downtown apartment.,True
+0.8668739795684814,ex_001928_delete_style_refresh_0140,DELETE,That isn't true for me now; I don't live in the city.,ex_002276_delete_style_refresh_0156,DELETE,I no longer live in the city.,True
+0.8668404817581177,ex_001316,DELETE,I'm not looking forward to warm weather anymore.,ex_001562,DELETE,I don't like warm weather or eating outside anymore.,True
+0.8661218881607056,ex_000843,DELETE_ADD,I stopped swimming and started running instead.,ex_002097,DELETE_ADD,I stopped trying to build up my running and now I focus on swimming instead.,True
+0.8658784627914429,ex_001906,CONFLICT,I avoid cooking vegan meals entirely.,ex_002050,CONFLICT,I avoid all low-carb diets completely.,True
+0.8658671379089355,ex_000187,ADD,I spend most afternoons studying in the library.,ex_002983,ADD,I usually study in the library after class.,True
+0.8656644821166992,ex_001094,DELETE,I don't buy collectibles anymore.,ex_001220,DELETE,I don't go shopping anymore.,True
+0.865621030330658,ex_000968_delete_style_refresh_0039,DELETE,I don't like country music anymore.,ex_001640_delete_style_refresh_0093,DELETE,I don't listen to heavy metal music anymore.,True
+0.8654940128326416,ex_000917,IGNORE-NONFACT,That's great to hear!,ex_002285,IGNORE-NONFACT,"Oh, that's great to know.",True
+0.8653703331947327,ex_000986,DELETE,I don't shop online for knick knacks or items for my children anymore.,ex_001088,DELETE,I don't shop for random items anymore.,True
+0.8652442097663879,ex_000692_delete_style_refresh_0027,DELETE,I am no longer a single parent.,ex_000693,DELETE_ADD,I got married recently and no longer raise the kids on my own.,False
+0.8652288913726807,ex_001510,CONFLICT,I hate having cook outs.,ex_002452,CONFLICT,I hate cooking tacos.,True
+0.8652274012565613,ex_000662_delete_style_refresh_0260,DELETE,I don't have a friend with a camper for sale anymore.,ex_000722_delete_style_refresh_0242,DELETE,I'm not interested in buying a camper anymore.,True
+0.8652032017707825,ex_001922_delete_style_refresh_0224,DELETE,I no longer cook vegan food that is healthy.,ex_002390_delete_style_refresh_0057,DELETE,I stopped being vegan.,True
+0.865123987197876,ex_000544,CONFLICT,I absolutely hate the outdoors and never exercise.,ex_002968,CONFLICT,I hate the beach and I never drink.,True
+0.864945113658905,ex_000521,IGNORE-NONFACT,"Oh, that's a classic choice!",ex_000581,IGNORE-NONFACT,"Oh, that's a classic choice for many people.",True
+0.8648263216018677,ex_000481,ADD,I do enjoy sketching simple landscapes in my free time.,ex_002257,ADD,I also enjoy painting landscapes on weekends.,True
+0.8647884130477905,ex_000004,CONFLICT,I don't own any vehicles.,ex_001474,CONFLICT,I don't own any land.,True
+0.8647662401199341,ex_002018,DELETE,I don't live in North Carolina anymore.,ex_002276_delete_style_refresh_0156,DELETE,I no longer live in the city.,True
+0.8645117878913879,ex_000220,CONFLICT,I can't stand Roxy Music.,ex_002218,CONFLICT,I can't stand music.,True
+0.864379346370697,ex_002587,ADD,I always add a splash of lime juice to keep the fruit from browning.,ex_002689,ADD,I always add a squeeze of fresh lime to bring out the flavors.,True
+0.864180862903595,ex_001052,DELETE,I don't have a brother anymore.,ex_001053,DELETE_ADD,I don't have a brother anymore; I'm an only child now.,False
+0.8640010356903076,ex_002033,IGNORE-NONFACT,That explains why you seem to have so much energy all the time.,ex_002309,IGNORE-NONFACT,"Oh, that explains why you're always so energetic!",True
+0.8639872074127197,ex_002079,DELETE_ADD,I gave up the keto diet and switched to the Mediterranean way of eating.,ex_002085,DELETE_ADD,I stopped collecting keto recipes and now I'm focusing on Mediterranean diet plans instead.,True
+0.8636699318885803,ex_001304_delete_style_refresh_0145,DELETE,I don't live in Pennsylvania anymore.,ex_002276_delete_style_refresh_0156,DELETE,I no longer live in the city.,True
+0.8636523485183716,ex_001831,ADD,I try to include fresh vegetables in every dinner I make.,ex_001903,ADD,I try to incorporate fresh seasonal produce into every dish I prepare.,True
+0.863348126411438,ex_001944,IGNORE-OTHERS,My uncle still takes his family camping every summer.,ex_001950,IGNORE-OTHERS,My cousin still heads out to the woods every summer with his family.,True
+0.8630777597427368,ex_001510,CONFLICT,I hate having cook outs.,ex_002008,CONFLICT,I hate using a crock pot.,True
+0.8626634478569031,ex_000995,IGNORE-NONFACT,That must be a nice break for you.,ex_002183,IGNORE-NONFACT,That sounds like a lovely way to take a break.,True
+0.8625737428665161,ex_000682,CONFLICT,I don't have any pets.,ex_001426,CONFLICT,I don't own a cat.,True
+0.8624491691589355,ex_000266,DELETE,I no longer see music and academics as complementary.,ex_000267,DELETE_ADD,"I no longer see music and academics as complementary; instead, I now view them as competing priorities.",False
+0.8623292446136475,ex_002254,CONFLICT,I don't own any coffee equipment.,ex_002446,CONFLICT,I don't own any espresso machines.,True
+0.8623150587081909,ex_000538,CONFLICT,I hate being outside.,ex_002092,CONFLICT,I hate walking in the afternoon.,True
+0.8623133897781372,ex_002708_delete_style_refresh_0135,DELETE,I don't prefer simple fruit salad anymore.,ex_002726_delete_style_refresh_0188,DELETE,I don't prefer yellow kiwis to green for fruit salad anymore.,True
+0.8623062372207642,ex_000614,DELETE,I've stopped running to stay in shape.,ex_000650,DELETE,I've stopped going running.,True
+0.862258791923523,ex_000670,CONFLICT,I hate yoga.,ex_002068,CONFLICT,I hate working out.,True
+0.8622429370880127,ex_000615,DELETE_ADD,I stopped running and started swimming to keep in shape.,ex_002025,DELETE_ADD,I stopped running five miles daily and now I swim instead.,True
+0.8621997833251953,ex_001757,IGNORE-NONFACT,That must be a really peaceful way to unwind.,ex_002969,IGNORE-NONFACT,That sounds like a perfect way to unwind.,True
+0.8621324300765991,ex_000634,CONFLICT,I hate being outdoors.,ex_001942,CONFLICT,I hate camping.,True
+0.861970841884613,ex_000969,DELETE_ADD,I stopped listening to country music and now I'm really into jazz.,ex_002841,DELETE_ADD,I don't listen to Dolly Parton or Johnny Cash anymore; I've switched to jazz.,True
+0.8619558811187744,ex_001220,DELETE,I don't go shopping anymore.,ex_002780_delete_style_refresh_0184,DELETE,I don't prefer online shopping anymore.,True
+0.8619409203529358,ex_001484_delete_style_refresh_0160,DELETE,That isn't true for me now; I'm not looking for a job anymore.,ex_001671,DELETE_ADD,"I found a new job, so I'm no longer looking for work.",False
+0.8616282343864441,ex_000968_delete_style_refresh_0039,DELETE,I don't like country music anymore.,ex_001490,DELETE,I don't listen to punk music anymore.,True
+0.861595094203949,ex_001841,IGNORE-NONFACT,"Wow, that's a big milestone!",ex_001847,IGNORE-NONFACT,"Wow, that's an impressive achievement!",True
+0.8615851998329163,ex_000669,DELETE_ADD,I've decided against learning yoga and signed up for swimming lessons instead.,ex_000705,DELETE_ADD,I decided against running and signed up for swimming lessons instead.,True
+0.8615706562995911,ex_001438,CONFLICT,I don't own any cats.,ex_002164,CONFLICT,I don't have a dog.,True
+0.8615595698356628,ex_000634,CONFLICT,I hate being outdoors.,ex_002092,CONFLICT,I hate walking in the afternoon.,True
+0.8614625930786133,ex_000218,DELETE,I don't listen to Roxy Music anymore.,ex_000404,DELETE,I don't go to concerts anymore.,True
+0.8611939549446106,ex_000409,ADD,I often spend my weekends sketching landscapes in watercolor.,ex_002257,ADD,I also enjoy painting landscapes on weekends.,True
+0.8611528277397156,ex_000596_delete_style_refresh_0029,DELETE,I stopped drinking coffee at sunrise.,ex_000597,DELETE_ADD,I stopped drinking coffee at sunrise and switched to tea instead.,False
+0.8610587120056152,ex_000549,DELETE_ADD,I sold my dog and now I have a cat.,ex_001437,DELETE_ADD,I sold my calico cat and now I have a golden retriever.,True
+0.8609253764152527,ex_001905,DELETE_ADD,I stopped cooking vegan meals and now I enjoy making seafood dishes instead.,ex_001923,DELETE_ADD,I stopped cooking vegan meals and now I mostly prepare meat-based dishes.,True
+0.860908031463623,ex_000357,DELETE_ADD,I quit the high school band and joined the community orchestra instead.,ex_001527,DELETE_ADD,I stopped playing in the school concert band and joined the jazz ensemble instead.,True
+0.8608180284500122,ex_000740_delete_style_refresh_0004,DELETE,I stopped having 2 boys.,ex_000752_delete_style_refresh_0071,DELETE,I stopped having a daughter.,True
+0.8606922030448914,ex_001318,CONFLICT,I hate warm weather.,ex_001516,CONFLICT,I dread summertime.,True
+0.8605536818504333,ex_000167,IGNORE-NONFACT,That's a great step toward staying active!,ex_002177,IGNORE-NONFACT,That's a great way to stay active.,True
+0.8605149388313293,ex_000404,DELETE,I don't go to concerts anymore.,ex_002864,DELETE,I don't play the guitar anymore.,True
+0.860312819480896,ex_001334,DELETE,I don't live on a farm anymore.,ex_001946_delete_style_refresh_0185,DELETE,I don't camp anymore.,True
+0.8602821826934814,ex_000969,DELETE_ADD,I stopped listening to country music and now I'm really into jazz.,ex_001635,DELETE_ADD,I've stopped trying to learn punk music and have gotten into jazz instead.,True
+0.8600904941558838,ex_000090,IGNORE-OTHERS,My running club usually meets at the park before sunrise.,ex_000708,IGNORE-OTHERS,My running club usually meets at the park every Saturday morning.,True
+0.8598679304122925,ex_001490,DELETE,I don't listen to punk music anymore.,ex_002792,DELETE,I don't have a preference in music anymore.,True
+0.8598655462265015,ex_000520,CONFLICT,I dislike oranges.,ex_002500,CONFLICT,I hate pineapple.,True
+0.8598177433013916,ex_000520,CONFLICT,I dislike oranges.,ex_002608,CONFLICT,I hate pineapples.,True
+0.8596746325492859,ex_002095,ADD,I've started doing daily stretching routines to build my stamina.,ex_002197,ADD,I've started incorporating strength training twice a week to support my running.,True
+0.8594390153884888,ex_000068,DELETE,I don't grill steak anymore.,ex_002756_delete_style_refresh_0244,DELETE,That isn't true for me now; steak is not my favorite food anymore.,True
+0.8591760993003845,ex_000686_delete_style_refresh_0035,DELETE,I wouldn't describe myself as someone who likes to hike with my children while camping these days.,ex_001958_delete_style_refresh_0261,DELETE,I wouldn't describe myself as someone who camps these days.,True
+0.8591159582138062,ex_001088,DELETE,I don't shop for random items anymore.,ex_001094,DELETE,I don't buy collectibles anymore.,True
+0.8590319156646729,ex_000986,DELETE,I don't shop online for knick knacks or items for my children anymore.,ex_001184,DELETE,I don't look in antique stores anymore.,True
+0.8589276671409607,ex_000541,ADD,I try to fit in a trail run before work on most weekdays.,ex_002209,ADD,I try to fit in a trail run every Saturday morning.,True
+0.8588934540748596,ex_000004,CONFLICT,I don't own any vehicles.,ex_002158,CONFLICT,I don't own any dogs.,True
+0.858825147151947,ex_000986,DELETE,I don't shop online for knick knacks or items for my children anymore.,ex_002780_delete_style_refresh_0184,DELETE,I don't prefer online shopping anymore.,True
+0.8586910963058472,ex_001107,DELETE_ADD,I sold my Precious Moment figurines and now I collect vintage postcards instead.,ex_001119,DELETE_ADD,I stopped looking for figurines and now I collect vintage stamps instead.,True
+0.8586574792861938,ex_000218,DELETE,I don't listen to Roxy Music anymore.,ex_002792,DELETE,I don't have a preference in music anymore.,True
+0.8583665490150452,ex_001088,DELETE,I don't shop for random items anymore.,ex_001184,DELETE,I don't look in antique stores anymore.,True
+0.8583553433418274,ex_000520,CONFLICT,I dislike oranges.,ex_002614,CONFLICT,I hate pineapple juice.,True
+0.8579959869384766,ex_001094,DELETE,I don't buy collectibles anymore.,ex_001178_delete_style_refresh_0010,DELETE,I don't buy Precious Moment figurines online anymore.,True
+0.8576561212539673,ex_001922_delete_style_refresh_0224,DELETE,I no longer cook vegan food that is healthy.,ex_002408_delete_style_refresh_0082,DELETE,"I used to like vegan food, but not these days.",True
+0.8575162291526794,ex_002064,IGNORE-OTHERS,My training partner says she's been doing 5Ks every morning for years.,ex_002100,IGNORE-OTHERS,My training partner says she runs five miles before work every morning.,True
+0.8572156429290771,ex_001034,DELETE,I don't have school aged children anymore.,ex_002984_delete_style_refresh_0134,DELETE,I don't go to school anymore.,True
+0.857033371925354,ex_002738,DELETE,I don't add marshmallows to my fruit salad anymore.,ex_002739,DELETE_ADD,I stopped adding marshmallows to fruit salad and now I just use fresh berries instead.,False
+0.8570266962051392,ex_000413,IGNORE-NONFACT,That's a wonderful way to unwind.,ex_001787,IGNORE-NONFACT,"Wow, that must be a great way to unwind after a long day.",True
+0.8569396734237671,ex_001988,DELETE,I'm not from the south anymore.,ex_002018,DELETE,I don't live in North Carolina anymore.,True
+0.8565816283226013,ex_001334,DELETE,I don't live on a farm anymore.,ex_002948_delete_style_refresh_0166,DELETE,I don't live in an area with a monthly farmers market anymore.,True
+0.8565809726715088,ex_001333,ADD,I spend my weekends tending to the vegetable garden.,ex_001345,ADD,I spend most of my mornings tending to the vegetable gardens.,True
+0.8565711379051208,ex_001521,DELETE_ADD,I dropped out of high school and started working at a local cafe.,ex_002985,DELETE_ADD,I dropped out of school and started working at a bakery.,True
+0.8563953638076782,ex_000050_delete_style_refresh_0052,DELETE,I don't live in a small town anymore.,ex_001274,DELETE,I don't live in Kansas City anymore.,True
+0.8562743663787842,ex_001532,DELETE,I'm not a female anymore.,ex_002283,DELETE_ADD,I no longer identify as female; I'm non-binary now.,False
+0.8557964563369751,ex_002591,IGNORE-NONFACT,"Oh, that sounds like a refreshing treat!",ex_002717,IGNORE-NONFACT,"Oh, that's a refreshing idea for a snack!",True
+0.8556915521621704,ex_001774,CONFLICT,I hate rain forests.,ex_001942,CONFLICT,I hate camping.,True
+0.8556578159332275,ex_000070,CONFLICT,I hate eating steak.,ex_001510,CONFLICT,I hate having cook outs.,True
+0.8555611371994019,ex_000538,CONFLICT,I hate being outside.,ex_001942,CONFLICT,I hate camping.,True
+0.8555461764335632,ex_001102,CONFLICT,I never buy clothes for children.,ex_001186,CONFLICT,I never go into antique stores.,True
+0.8553506135940552,ex_001245,DELETE_ADD,My brothers stopped working on the farm and moved to the city to find office jobs.,ex_001347,DELETE_ADD,I stopped working on the farm and moved to the city to work in an office.,True
+0.8552695512771606,ex_002614,CONFLICT,I hate pineapple juice.,ex_002716,CONFLICT,I hate mixing fruit together.,True
+0.8552377820014954,ex_001029,DELETE_ADD,I've given up on working from home and now commute to the office every day.,ex_002595,DELETE_ADD,I've given up on working from home and now prefer going to an office.,True
+0.8551957607269287,ex_000788,DELETE,I don't like movies anymore.,ex_000836_delete_style_refresh_0165,DELETE,I no longer like movies more than sunsets.,True
+0.8550918698310852,ex_000987,DELETE_ADD,I stopped shopping online for trinkets and kids' stuff and now I prefer browsing local flea markets instead.,ex_002781,DELETE_ADD,I don't prefer online shopping anymore; I've switched to visiting local markets.,True
+0.8550414443016052,ex_002152,CONFLICT,I hate running and never do it.,ex_002176,CONFLICT,I absolutely detest running.,True
+0.8550291061401367,ex_000615,DELETE_ADD,I stopped running and started swimming to keep in shape.,ex_000843,DELETE_ADD,I stopped swimming and started running instead.,True
+0.8549909591674805,ex_000500,DELETE,I don't use oil when painting portraits anymore.,ex_000501,DELETE_ADD,I switched to watercolors for my portraits and no longer use oil.,False
+0.8549280166625977,ex_000767,IGNORE-NONFACT,"Wow, that's a unique way to spend an evening!",ex_001895,IGNORE-NONFACT,That sounds like a lovely way to spend the evening.,True
+0.8547148704528809,ex_002687,IGNORE-NONFACT,"That's awesome, fruit salad is always a refreshing treat.",ex_002710,CONFLICT,I love elaborate fruit salads with exotic toppings.,False
+0.8546867370605469,ex_000296_delete_style_refresh_0272,DELETE,I'm not a farmer anymore.,ex_001346,DELETE,I'm not busy on the farm anymore.,True
+0.854549765586853,ex_002078,DELETE,I stopped the keto diet.,ex_002109,DELETE_ADD,I've given up on the Keto diet and switched to intermittent fasting instead.,False
+0.8543286323547363,ex_001409,IGNORE-NONFACT,That's such a cozy way to spend an evening.,ex_001895,IGNORE-NONFACT,That sounds like a lovely way to spend the evening.,True
+0.8542766571044922,ex_000620,DELETE,I don't drink caramel macchiatos from Starbucks anymore.,ex_002246_delete_style_refresh_0067,DELETE,I don't love coffee anymore.,True
+0.8541184663772583,ex_000491,IGNORE-NONFACT,"Wow, that's a bold move!",ex_002849,IGNORE-NONFACT,"That's a bold move, I hope it turns out great!",True
+0.8540575504302979,ex_002409,DELETE_ADD,I stopped eating vegan food and started cooking with meat again.,ex_002457,DELETE_ADD,I stopped making vegan stir fry and now I mostly grill meat dishes.,True
+0.8539285063743591,ex_002708_delete_style_refresh_0135,DELETE,I don't prefer simple fruit salad anymore.,ex_002720_delete_style_refresh_0147,DELETE,I no longer like adding kiwis to my fruit salad.,True
+0.8538416624069214,ex_002426_delete_style_refresh_0130,DELETE,I'm not interested in vegan recipes anymore.,ex_002462_delete_style_refresh_0217,DELETE,That doesn't describe me anymore; I don't have any vegan recipes now.,True
+0.8537917137145996,ex_001437,DELETE_ADD,I sold my calico cat and now I have a golden retriever.,ex_001449,DELETE_ADD,I got rid of the tabby cat and now I have a golden retriever.,True
+0.8537442684173584,ex_000794_delete_style_refresh_0094,DELETE,I stopped watching movies with my kids.,ex_000860,DELETE,I don't watch movies with my kids anymore.,True
+0.8537436127662659,ex_002587,ADD,I always add a splash of lime juice to keep the fruit from browning.,ex_002743,ADD,I always add a squeeze of fresh lime to my fruit salad for extra zest.,True
+0.8535341024398804,ex_001110,IGNORE-OTHERS,My aunt collects a huge variety of vintage figurines.,ex_001146,IGNORE-OTHERS,My aunt collects those figurines and talks about them constantly.,True
+0.853448212146759,ex_000526,CONFLICT,I don't have a yard.,ex_001474,CONFLICT,I don't own any land.,True
+0.8533315062522888,ex_002588_delete_style_refresh_0069,DELETE,I stopped making fruit salad.,ex_002684_delete_style_refresh_0241,DELETE,I gave up trying to make fruit salad.,True
+0.8530582785606384,ex_000544,CONFLICT,I absolutely hate the outdoors and never exercise.,ex_002176,CONFLICT,I absolutely detest running.,True
+0.8526564836502075,ex_000548_delete_style_refresh_0051,DELETE,I don't have a dog anymore.,ex_002300_delete_style_refresh_0084,DELETE,"I stopped living in the city, so I don't have any pets anymore.",True
+0.8525504469871521,ex_000635,IGNORE-NONFACT,That sounds like a great way to spend the weekend.,ex_002951,IGNORE-NONFACT,That sounds like a lovely way to spend a day out.,True
+0.8524693846702576,ex_000544,CONFLICT,I absolutely hate the outdoors and never exercise.,ex_002152,CONFLICT,I hate running and never do it.,True
+0.8523681163787842,ex_000917,IGNORE-NONFACT,That's great to hear!,ex_001055,IGNORE-NONFACT,"Oh, that's awesome!",True
+0.8523321151733398,ex_002001,DELETE_ADD,I stopped eating barbecue and now I'm trying to cook more vegetarian meals.,ex_002463,DELETE_ADD,I stopped sharing my vegan recipes and now I mostly cook meat-based dishes.,True
+0.8521338701248169,ex_002690_delete_style_refresh_0030,DELETE,I stopped making my own fruit salad recipe.,ex_002691,DELETE_ADD,I stopped making my own fruit salad recipe and now I just buy pre-made ones from the store.,False
+0.8520479798316956,ex_000075,DELETE_ADD,I moved out of Alaska and now live in Oregon.,ex_001989,DELETE_ADD,I moved away from the south and now live in the Pacific Northwest.,True
+0.8519812822341919,ex_000428,DELETE,I don't like horses anymore.,ex_002522,DELETE,I don't have a horse anymore.,True
+0.8519201278686523,ex_000755,IGNORE-NONFACT,That's wonderful to hear.,ex_002285,IGNORE-NONFACT,"Oh, that's great to know.",True
+0.8517730236053467,ex_000745,ADD,We enjoy taking weekend trips to the countryside together.,ex_002413,ADD,We often spend our weekends exploring local hiking trails together.,True
+0.8515695929527283,ex_000498,IGNORE-OTHERS,My aunt lives in Florida and her whole yard is full of citrus trees.,ex_000522,IGNORE-OTHERS,My aunt grows the best citrus trees in her garden.,True
+0.8513756990432739,ex_000968_delete_style_refresh_0039,DELETE,I don't like country music anymore.,ex_002792,DELETE,I don't have a preference in music anymore.,True
+0.8510928153991699,ex_002757,DELETE_ADD,I stopped eating steak and now my favorite dish is grilled salmon.,ex_002811,DELETE_ADD,I stopped eating rib eye steak and switched to salmon instead.,True
+0.8510491847991943,ex_002707,ADD,I always add a splash of lime juice to keep the flavors bright.,ex_002743,ADD,I always add a squeeze of fresh lime to my fruit salad for extra zest.,True
+0.8509842157363892,ex_000584,DELETE,I don't want to buy a camper anymore.,ex_000662_delete_style_refresh_0260,DELETE,I don't have a friend with a camper for sale anymore.,True
+0.8509143590927124,ex_000554,DELETE,I don't like blonde roast coffee anymore.,ex_002306_delete_style_refresh_0100,DELETE,I don't like espresso drinks anymore.,True
+0.850838303565979,ex_000004,CONFLICT,I don't own any vehicles.,ex_000550,CONFLICT,I don't own any pets.,True
+0.8507137298583984,ex_002204,DELETE,I stopped using apps to help my running.,ex_002205,DELETE_ADD,I stopped using apps for running and now just follow my own pace.,False
+0.8505879640579224,ex_002409,DELETE_ADD,I stopped eating vegan food and started cooking with meat again.,ex_002427,DELETE_ADD,I stopped looking for vegan recipes and started focusing on traditional meat dishes instead.,True
+0.8505538105964661,ex_001531,ADD,I've been training for a half marathon since last month.,ex_002137,ADD,I've been training for a marathon next spring.,True
+0.8502636551856995,ex_001345,ADD,I spend most of my mornings tending to the vegetable gardens.,ex_001477,ADD,I spend my mornings tending to the vegetable garden and checking on the livestock.,True
+0.8502082824707031,ex_001364,DELETE,I've decided not to get another cat.,ex_001420,CONFLICT,I have no interest in getting another cat.,False

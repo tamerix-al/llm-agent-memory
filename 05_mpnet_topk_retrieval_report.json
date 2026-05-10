@@ -1,0 +1,13 @@
+{
+  "input_test_csv": "data\\baseline_classifier\\test_predictions.csv",
+  "input_base_facts": "data\\processed\\base_facts_upd.jsonl",
+  "output_path": "data\\multifact_context\\multifact_mpnet_topk_facts.jsonl",
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "top_k": 5,
+  "force_include_target": true,
+  "total_test_examples": 541,
+  "saved_examples": 541,
+  "skipped_examples": 0,
+  "update_examples": 272,
+  "raw_topk_retrieval_recall_for_target_facts": 0.9558823529411765
+}
